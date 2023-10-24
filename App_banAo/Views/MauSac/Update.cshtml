@@ -1,0 +1,56 @@
+﻿@model App_data.Models.MauSac
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+}
+
+<h2>Sửa Màu Sắc</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="control-label">Tên Màu Sắc</label>
+                <input asp-for="Ten" class="form-control" />
+                <span asp-validation-for="Ten" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Ảnh</label>
+                @{
+                    string extension = System.IO.Path.GetExtension(Model.AnhMauSac);
+                    if (imageExtensions.Contains(extension.Trim()))
+                    {
+                        <img class="img-fluid w-100" src="~/userassets/img/@Model.AnhMauSac" height="100px" />
+                    }
+                    else
+                    {
+                        <img class="img-fluid w-100" src="~/imgs/product-2.jpg" height="100px">
+                    }
+                }
+                <input type="file" name="formFile" accept="image/*" />
+                <span asp-validation-for="AnhMauSac" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Trạng Thái</label>
+                <input asp-for="TrangThai" class="form-control" />
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sửa" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GetAllMauSac">Quay trở lại</a>
+</div>
+

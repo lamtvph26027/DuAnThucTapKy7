@@ -1,0 +1,256 @@
+﻿@model IEnumerable<App_data.Models.ChiTietGioHang>
+@using App_data.Models
+@using App_data.ViewModels.ChiTietSPView
+@{
+    ViewData["Title"] = "ShowCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
+    List<KhuyenMaiView> listkms = ViewBag.KhuyenMaiView;
+    List<ChiTietSanPham> listctsps = ViewBag.ChiTietSanPham;
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+   long tongTien = 0; 
+    int tongSL = 0;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/userassets/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/userassets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/userassets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/userassets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <a class="breadcrumb-item text-dark" href="#">Shop</a>
+                    <span class="breadcrumb-item active">Shopping Cart</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+    <!-- Cart Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-lg-6 table-responsive mb-5">
+                <table class="table table-light table-borderless table-hover text-center mb-0">
+                    <thead class="thead-dark">
+                        <tr><th>Ảnh</th>
+                            <th>Sản Phẩm</th>
+                            <th>Màu Sắc</th>
+                            <th>Size</th>
+                            <th>Đơn Giá</th>
+                            <th>Số lượng</th>
+                            <th>Tổng tiền</th>
+                            <th>Xóa</th>
+                        </tr>
+                    </thead>
+                    <tbody class="align-middle">
+                        @foreach(var item in Model)
+                        { var CTGH = dBContext.ChiTietGioHangs.Find(item.Id);
+                            var CTSP = dBContext.ChiTietSanPhams.Find(item.IdChiTietSP);
+                            var sp = dBContext.SanPhams.Find(CTSP.IdSanPham);
+                            var ms = dBContext.MauSacs.Find(CTSP.IdMauSac);
+                            var size = dBContext.Sizes.Find(CTSP.IdSize);
+                            
+                            var tk = listkms.FirstOrDefault(x => x.Id == CTSP.IdKhuyenMai);
+                           
+
+
+                                
+                            
+
+                                <tr>
+                                    @using(Html.BeginForm("Update_Quantity","GioHang"))
+                                    {
+                                       <!-- Code Anh star-->
+                                     <td class="align-middle">
+                                         @{
+                                            var anh = dBContext.Anhs.Find(CTSP.IdAnh);
+                                            if (anh != null)
+                                            {
+                                                string extension = System.IO.Path.GetExtension(anh.Ten);
+                                                if (imageExtensions.Contains(extension.Trim()))
+                                                {
+
+                                                      <img src="~/userassets/img/@anh.Ten" alt="" style="width: 50px;"> 
+                                                }
+                                                else
+                                                {
+                                                        <img class="img-fluid w-100" src="~/userassets/img/product-2.jpg" height="50px">
+                                                }
+                                            }
+                                         }
+                                     </td>       
+                                    <!-- Code Anh end-->
+                                        <td class="align-middle"> @sp.Ten</td>
+                                        <td class="align-middle">@ms.Ten</td>
+                                        <td class="align-middle">@size.Ten</td>
+                                    
+
+                                        
+                                        if (tk != null)
+                                        {
+                                            if (tk.NgayKetThuc >= DateTime.Now)
+                                            {
+                                                <td class="align-middle" style="color:green">$@(
+                                              item.DonGia - item.DonGia * tk.GiaTri / 100
+                                              ) VND</td>
+                                            }
+                                            else if (tk.NgayKetThuc < DateTime.Now)
+                                            {
+                                                <td class="align-middle" style="color:red">$@item.DonGia.ToString("n0") VND</td>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <td class="align-middle" style="color:red">$@item.DonGia.ToString("n0") VND</td>
+                                        }
+
+
+                                   
+                                    <td class="align-middle">
+                                            <div class="quantity">
+                                                <input type="hidden" value="@item.IdChiTietSP" name="ID_product" />
+                                                <input type="number" min="0" step="1" value="@item.SoLuong" name="Quantity" style=" width:100px;font-weight:600; text-align:center" />
+                                            </div>
+                                        <input type="submit" value="Update"  style=" width:100px;margin-top:10px;background-color:#0000" />
+                                        </td>
+                                    }
+                                    @{
+                                    if (tk != null)
+                                    {
+                                        if (tk.NgayKetThuc >= DateTime.Now)
+                                        {
+                                            var thanhtien = item.SoLuong * (CTSP.DonGia - CTSP.DonGia * tk.GiaTri / 100);
+                                            tongTien += thanhtien;
+                                            <td style="color:green" class="align-middle">$@thanhtien.ToString("n0") VND</td>
+                                        }
+                                        else
+                                        {
+                                            var thanhtien = item.SoLuong * item.DonGia;
+                                            tongTien += thanhtien;
+                                            <td style="color:red" class="align-middle">$@thanhtien.ToString("n0") VND</td>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        var thanhtien = item.SoLuong * item.DonGia;
+                                        tongTien += thanhtien;
+                                        <td style="color:red" class="align-middle">$@thanhtien.ToString("n0") VND</td>
+                                    }
+                                    }
+
+                                    
+                                    <td class="align-middle">
+                                        <a href="~/GioHang/RemoveCartItem/@CTSP.Id" class="btn btn-sm btn-danger"><i class="fa fa-times"></i></a>
+                                    </td>
+                                </tr>
+                            
+                            
+                        }
+                        
+                        
+                        
+                    </tbody>
+                </table>
+                <table>
+                    
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="continue__btn">
+                                    <a href="/SanPham/GetAllSanPham">Quay Trở Lại Mua Tiếp</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="continue__btn update__btn">
+                                    <a href="~/GioHang/RemoveAll"><i class="fa fa-spinner"></i> Xóa Tất Cả</a>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </table>
+                
+            </div>
+            <div class="col-lg-4">
+                <form class="mb-30" action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-0 p-4" placeholder="Coupon Code">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary">Apply Coupon</button>
+                        </div>
+                    </div>
+                </form>
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Cart Summary</span></h5>
+                <div class="bg-light p-30 mb-5">
+                    <div class="border-bottom pb-2">
+                        <div class="d-flex justify-content-between mb-3">
+                            <h6>Subtotal </h6>
+                            <h6 style="color:green">$@tongTien.ToString("n0") VND</h6>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-medium">Shipping</h6>
+                            <h6 class="font-weight-medium">$0</h6>
+                        </div>
+                    </div>
+                    <div class="pt-2">
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5>Total</h5>
+                        <h5 style="color:green">$@tongTien.ToString("n0") VND</h5>
+                        </div>
+                        <button class="btn btn-block btn-primary font-weight-bold my-3 py-3">
+                        <a class="primary-btn" asp-controller="ThanhToan" asp-action="TaoHoaDon" asp-route-tongtien="@tongTien" style="color:red">Thanh Toán</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart End -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/userassets/lib/easing/easing.min.js"></script>
+    <script src="~/userassets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/userassets/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/userassets/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/userassets/js/main.js"></script>
+</body>
+
+</html>

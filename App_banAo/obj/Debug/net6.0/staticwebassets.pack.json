@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App_banAo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\App_banAo.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\basic.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\basic.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-fileupload.min.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\bootstrap-fileupload.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-social.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\bootstrap-social.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\error.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\error.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\invoice.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\invoice.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\pricing.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\pricing.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\jquery.steps.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\wizard\\jquery.steps.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\normalize.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\wizard\\normalize.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\wizardMain.css",
+      "PackagePath": "staticwebassets\\Adminassets\\css\\wizard\\wizardMain.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\Adminassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\demoUpload.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\demoUpload.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\logo-invoice.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\logo-invoice.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\b.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\c.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\c.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\d.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\e.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\g.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\g.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\h.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\portfolio\\h.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\contentPattern.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\contentPattern.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\dark_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnNext.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternBottom.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternBottom.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternLeft.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternLeft.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternRight.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternRight.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternTop.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternTop.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\facebook\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\loader.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\sprite.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\prettyPhoto\\light_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\1.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\slideshow\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\2.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\slideshow\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\3.jpg",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\slideshow\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\user.gif",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\user.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\img\\user.png",
+      "PackagePath": "staticwebassets\\Adminassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap-fileupload.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\bootstrap-fileupload.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\galleryCustom.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\galleryCustom.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.mixitup.min.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\jquery.mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.cookie-1.3.1.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\wizard\\jquery.cookie-1.3.1.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.steps.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\wizard\\jquery.steps.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\modernizr-2.6.2.min.js",
+      "PackagePath": "staticwebassets\\Adminassets\\js\\wizard\\modernizr-2.6.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\style.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\ANhAoKhacMauXanh.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\ANhAoKhacMauXanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacDen.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhAoKhoacDen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacTrang.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhAoKhoacTrang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacVang.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhAoKhoacVang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauDo.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhMauDo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauTrang.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhMauTrang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVang.png",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhMauVang.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVangS.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhMauVangS.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhQuanBoXanhDaTroi.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhQuanBoXanhDaTroi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\AnhmauXanh.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\AnhmauXanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\offer-1.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\offer-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\offer-2.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\offer-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\payments.png",
+      "PackagePath": "staticwebassets\\Userassets\\img\\payments.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-6.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-7.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-8.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\product-9.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\Userassets\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Userassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Userassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\Userassets\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\Userassets\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapSvis8\\App_banAo\\wwwroot\\Userassets\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\Userassets\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.App_banAo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.App_banAo.props",
+      "PackagePath": "build\\App_banAo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.App_banAo.props",
+      "PackagePath": "buildMultiTargeting\\App_banAo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.App_banAo.props",
+      "PackagePath": "buildTransitive\\App_banAo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

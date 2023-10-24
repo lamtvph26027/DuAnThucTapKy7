@@ -1,0 +1,204 @@
+﻿@model App_data.ViewModels.HoaDonViewModel
+
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+	long tongtien = (long)ViewData["TongTien"];
+	long tienship = 0;
+}
+
+<!-- Breadcrumb Section End -->
+<!-- Checkout Section Begin -->
+<section class="checkout spad">
+	<div class="container">
+		<div class="checkout__form">
+			<form asp-action="TaoHoaDon" asp-controller="ThanhToan">
+				<div class="row">
+					<div class="col-lg-8 col-md-6">
+						<h6 class="coupon__code">
+							<span class="icon_tag_alt"></span> Have a coupon? <a href="#">
+								Click
+								here
+							</a> to enter your code
+						</h6>
+						<h6 class="checkout__title">Billing Details</h6>
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="checkout__input">
+									<p>Tên người nhận<span>*</span></p>
+									<input type="text" asp-for="TenNguoiNhan">
+								</div>
+							</div>
+						</div>
+						<div class="checkout__input">
+							<p>Province<span>*</span></p>
+							<select id="province"></select>
+						</div>
+						<div class="checkout__input">
+							<p>District<span>*</span></p>
+							<select id="district"></select>
+						</div>
+						<div class="checkout__input">
+							<p>Ward<span>*</span></p>
+							<select id="ward"></select>
+						</div>
+						<div class="checkout__input">
+							<p>Services<span>*</span></p>
+							<select id="service"></select>
+						</div>
+						
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="checkout__input">
+									<p>Phone<span>*</span></p>
+									<input type="text" asp-for="SDT">
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="checkout__input">
+									<p>Email<span>*</span></p>
+									<input type="text" asp-for="Email">
+									<input asp-for="TienShip" id="tienship" style="display: none">
+									<input asp-for="DiaChi" id="diachi" style="display: none" />
+								</div>
+							</div>
+						</div>
+						<div class="checkout__input__checkbox">
+							
+							<p>
+								Create an account by entering the information below. If you are a returning customer
+								please login at the top of the page
+							</p>
+						</div>
+						
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="checkout__order">
+							<h4 class="order__title">Your order</h4>
+							
+							<ul class="checkout__order__products">
+								<li>Subtotal <span>@tongtien.ToString("n0") VNĐ</span></li>
+								<li>Fee <span id="tienship">@tienship.ToString("n0") VNĐ</span></li>
+								@{
+									long Tienall = tongtien + tienship;
+								}
+								<li>Total <span id="total">@Tienall.ToString("n0") VNĐ</span></li>
+							</ul>
+							
+							<button onclick="createhoadon()" class="site-btn">PLACE ORDER</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+@section Scripts
+	{
+	<script>
+		$(document).ready(function() {
+            var strProvince = "";
+            var strDistrict = "";
+            var strWard = "";
+			$.ajax({
+				type: "GET",
+				url: "https://online-gateway.ghn.vn/shiip/public-api/master-data/province",
+				headers: { token: '9f4e42e4-fde8-11ed-a281-3aa62a37e0a5' },
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function(data) {
+					for (var i = 0; i < data.data.length; i++) {
+						var rows = "<option id='" + data.data[i].ProvinceID + "' value='" + data.data[i].ProvinceID + "'>" + data.data[i].ProvinceName + "</option>";
+						$('#province').append(rows);
+					}
+				},
+				error: function(reponse) {
+					alert(reponse.responseText);
+				}
+			});
+			$("#province").change(function() {
+				var value = document.getElementById("province").value;
+                strProvince = document.getElementById(value).innerHTML;
+				$.ajax({
+					type: "GET",
+					url: "https://online-gateway.ghn.vn/shiip/public-api/master-data/district?province_id=" + value,
+					headers: { token: '9f4e42e4-fde8-11ed-a281-3aa62a37e0a5' },
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function(data) {
+						for (var i = 0; i < data.data.length; i++) {
+							var rows = "<option id='" + data.data[i].DistrictID + "' value='" + data.data[i].DistrictID + "'>" + data.data[i].DistrictName + "</option>";
+							$('#district').append(rows);
+						}
+					},
+					error: function(reponse) {
+						alert(reponse.responseText);
+					}
+				});
+			});
+			$("#district").change(function() {
+				var value = document.getElementById("district").value;
+				strDistrict = document.getElementById(value).innerHTML;
+				$.ajax({
+					type: "GET",
+					url: "https://online-gateway.ghn.vn/shiip/public-api/master-data/ward?district_id=" + value,
+					headers: { token: '9f4e42e4-fde8-11ed-a281-3aa62a37e0a5' },
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function(data) {
+						for (var i = 0; i < data.data.length; i++) {
+							var rows = "<option id='" + data.data[i].WardCode + "' value='" + data.data[i].WardCode + "'>" + data.data[i].WardName + "</option>";
+							$('#ward').append(rows);
+						}
+					},
+					error: function(reponse) {
+						alert(reponse.responseText);
+					}
+				});
+				$.ajax({
+					type: "GET",
+					url: "https://online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/available-services?shop_id=4228407&from_district=1542&to_district=" + value,
+					headers: { token: '9f4e42e4-fde8-11ed-a281-3aa62a37e0a5' },
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function(data) {
+						for (var i = 0; i < data.data.length; i++) {
+							var rows = "<option value='" + data.data[i].service_id + "'>" + data.data[i].short_name + "</option>";
+							$('#service').append(rows);
+						}
+					},
+					error: function(reponse) {
+						alert(reponse.responseText);
+					}
+				});
+			});
+			$("#ward").change(function() {
+				var value1 = document.getElementById("ward").value;
+				var value2 = document.getElementById("district").value;
+				var value3 = document.getElementById("service").value;
+			    strWard = document.getElementById(value1).innerHTML;
+				$.ajax({
+					type: "GET",
+					url: "https://online-gateway.ghn.vn/shiip/public-api/v2/shipping-order/fee?to_ward_code=" + value1 + "&to_district_id=" + value2 + "&weight=2&from_district_id=1542&from_ward_code=21211&from&service_id=" + value3,
+					headers: { token: '9f4e42e4-fde8-11ed-a281-3aa62a37e0a5', shop_id: 4228407 },
+					contentType: "application/json; charset=utf-8",
+					dataType: "json",
+					success: function(data) {
+						document.getElementById("fee").innerHTML = data.data.total + " VNĐ";
+                        document.getElementById("tienship").value = data.data.total;
+						document.getElementById("total").innerHTML = data.data.total + @tongtien + " VNĐ";
+                        document.getElementById("diachi").value = strProvince + ", " + strDistrict + ", " + strProvince;
+					},
+					error: function(reponse) {
+						alert(reponse.responseText);
+					}
+				});
+			});
+		});
+	</script>
+}
+
+	<!-- Checkout Section End -->

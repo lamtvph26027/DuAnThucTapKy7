@@ -1,0 +1,88 @@
+﻿@using App_data.Models
+@using App_data.ViewModels.ChiTietSPView
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model IEnumerable<App_data.ViewModels.AllChiTietSanPham>
+@{
+    List<ChiTietSanPham> listctsps = ViewBag.ChiTietSanPham;
+    List<KhuyenMaiView> listkms = ViewBag.KhuyenMaiView;
+
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+}
+@foreach (var item in Model)
+{
+    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+        <div class="product-item bg-light mb-4">
+            <div class="product-img position-relative overflow-hidden">
+
+                @{
+                    //var Idanh = chitiesps.FirstOrDefault(x=>x.IdSanPham==item.Id);
+                    //var anh = Anhs.FirstOrDefault(x => x.Id == Idanh.IdAnh);
+
+                    string extension = System.IO.Path.GetExtension(item.TenAnh);
+                    if (imageExtensions.Contains(extension.Trim()))
+                    {
+                        <img class="img-fluid w-100" src="~/userassets/img/@item.TenAnh" />
+                    }
+                    else
+                    {
+                        <img class="img-fluid w-100" src="~/imgs/product-2.jpg" height="100px">
+                    }
+
+                }
+                <div class="product-action">
+                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            <div class="text-center py-4">
+
+
+                <a class="h6 text-decoration-none text-truncate" href="">@item.TenSanPham</a>
+
+
+                <div class="d-flex align-items-center justify-content-center mt-2">
+
+                    @{
+                        var idCt = listctsps.FirstOrDefault(x => x.Id == item.Id);
+                        var tk = listkms.FirstOrDefault(x => x.Id == idCt.IdKhuyenMai);
+                        if (tk != null)
+                        {
+                            if (tk.NgayKetThuc >= DateTime.Now)
+                            {
+                                <h5 style="color:green">$@(item.GiaKhuyenMai - item.GiaKhuyenMai * tk.GiaTri / 100) VND</h5>
+                            }
+                            else if (tk.NgayKetThuc < DateTime.Now)
+                            {
+                                <h5 style="color:red">$@item.GiaGoc.ToString("n0") VND</h5>
+                            }
+                        }
+                        else
+                        {
+                            <h5 style="color:red">$@item.GiaGoc.ToString("n0") VND</h5>
+                        }
+                    }
+                    <h6 class="text-muted ml-2"><del>$@item.GiaGoc.ToString("n0") VND</del></h6>
+                </div>
+
+
+
+                <div class="d-flex align-items-center justify-content-center mt-2">
+                    <h5>Màu sắc: @item.TenMauSac</h5>
+                </div>
+
+
+                <div>
+                    <button type="button" class="btn btn-success">  <a href="/GioHang/AddToCart/@item.Id" class="add-cart" style="color:red">+ Thêm vô giỏ</a></button>
+                    <button type="button" class="btn btn-success"><a href="/ChiTietSP/Details/@item.Id" class="add-cart" style="color:orange"> Chi Tiết</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

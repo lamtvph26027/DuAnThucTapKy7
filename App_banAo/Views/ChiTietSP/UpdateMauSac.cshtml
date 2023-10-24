@@ -1,0 +1,21 @@
+﻿@model App_data.Models.ChiTietSanPham
+@*
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "UpdateMauSac";
+    
+    App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
+}
+<form asp-action="UpdateMauSac"  asp-controller="ChiTietSP" enctype="multipart/form-data" method="post">
+
+    <select class="form-control" name="IdMauSac">
+        @foreach (var thuoctinh in dBContext.MauSacs.ToList())
+        {
+            <option value="@thuoctinh.Id">@thuoctinh.Ten</option>
+        }
+    </select>
+    <button type="submit" class="btn btn-success"><a>Chọn Màu Sắc</a></button>
+
+</form>

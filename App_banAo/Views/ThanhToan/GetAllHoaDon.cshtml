@@ -1,0 +1,131 @@
+﻿@model IEnumerable<App_data.Models.HoaDon>
+@using App_data.Models
+@{
+    ViewData["Title"] = "GetAllHoaDon";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
+    int stt = 1;
+}
+
+<h2>Quản lý hóa đơn</h2>
+
+<p>
+    <button class="btn-default" style="color:white">@Html.ActionLink("Thanh Toán", "TaoHoaDon")</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                Mã Người Dùng
+            </th>
+            <th>
+                Ngày Tạo 
+            </th>
+            <th>
+                Ngày Thanh Toán
+            </th>
+            <th>
+                Tên Người Nhận 
+            </th>
+            <th>
+               Số Điện Thoại
+            </th>
+            <th>
+               Email 
+            </th>
+            <th>
+                Địa Chỉ 
+            </th>
+            <th>
+               Tiền Ship
+            </th>
+            <th>
+                Tổng tiền
+            </th>
+            <th>
+                Phương Thức Thanh Toán
+            </th>
+            <th>
+                Trạng thái giao hàng 
+            </th>
+           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               <strong>@stt</strong>
+            </td>
+                <td>
+                    @{
+                        var Ten = dBContext.TaiKhoans.Find(item.IdNguoiDung);
+                        if(Ten!=null){
+                            <strong style="color:red"><span> @Ten.Ten</span></strong>
+                        }
+                    }
+                </td>
+            <td>
+                    <strong style="color:darkblue">@Html.DisplayFor(modelItem => item.NgayTao)</strong>
+            </td>
+            <td>
+                    <strong>@Html.DisplayFor(modelItem => item.NgayThanhToan)</strong>
+            </td>
+            <td>
+                    <strong style="color:forestgreen">@Html.DisplayFor(modelItem => item.TenNguoiNhan)</strong>
+            </td>
+            <td>
+                    <strong> @Html.DisplayFor(modelItem => item.SDT)</strong>
+            </td>
+            <td>
+                    <strong> @Html.DisplayFor(modelItem => item.Email)</strong>
+            </td>
+            <td>
+                    <strong style="color:black">@Html.DisplayFor(modelItem => item.DiaChi) </strong>
+            </td>
+            <td>
+                    <strong style="color:red">  @item.TienShip.ToString("n0") VND</strong>
+            </td>
+                <td>
+                    @{
+                        long tong = item.TienShip + item.TongTien;
+                    }
+                    <strong style="color:red"> @tong.ToString("n0") VND</strong>
+                </td>
+            <td>
+                <strong>@item.PhuongThucThanhToan</strong>
+            </td>
+            <td>
+                    @{
+                        var TT = dBContext.TrangThaiHoaDons.Find(item.IdTrangThaiGiaoHang);
+                        if (TT != null)
+                        {
+                            <strong style="color:orange"><span> @TT.Ten</span></strong>
+                        }
+                    }
+            </td>
+            
+            <td>
+                    <button class="btn btn-primary">
+                        @Html.ActionLink("Chi tiết", "Details", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+                    <button class="btn btn-warning">
+                        @Html.ActionLink("Sửa", "Update", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+                    <button class="btn btn-danger">
+                        @Html.ActionLink("Xóa", "Deletes", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+                   
+            </td>
+                @{
+                    stt++;
+                }
+        </tr>
+           
+}
+    </tbody>
+</table>

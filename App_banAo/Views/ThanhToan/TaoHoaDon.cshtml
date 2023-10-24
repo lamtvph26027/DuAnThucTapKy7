@@ -1,0 +1,64 @@
+﻿@model App_data.ViewModels.HoaDonViewModel
+
+@{
+    ViewData["Title"] = "TaoHoaDon";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    long tongtien = (long)ViewData["TongTien"];
+    long tienship = 0;
+}
+<h2>Thanh Toán</h2>
+
+<h4>HoaDon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="TaoHoaDon">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+           
+            
+            <div class="form-group">
+                <label class="control-label"> Ghi Rõ Tên Người Nhận*</label>
+                <input asp-for="TenNguoiNhan" class="form-control" />
+                <span asp-validation-for="TenNguoiNhan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Ghi Rõ SDT người nhận</label>
+                <input asp-for="SDT" class="form-control" />
+                <span asp-validation-for="SDT" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Ghi rõ Email người nhận</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Gõ rõ địa chỉ giao hàng</label>
+                <input asp-for="DiaChi" class="form-control" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TienKhachDua" class="control-label"></label>
+                <input asp-for="TienKhachDua" class="form-control" />
+                <span asp-validation-for="TienKhachDua" class="text-danger"></span>
+            </div>
+          
+            <div class="form-group">
+                <label style="color:red" class="control-label">Số Tiền Phải trả chưa tính Ship</label>
+                <input type="text" asp-for="TongTien" style="color:green" >$@tongtien.ToString("n0") VNĐ</input>
+                <span asp-validation-for="TongTien" class="text-danger"></span>
+            </div>
+            
+            
+            <div class="form-group">
+                <input type="submit" value="Thanh Toán" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

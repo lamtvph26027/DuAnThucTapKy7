@@ -1,0 +1,352 @@
+﻿@model ProductListViewModel
+@using App_data.Models
+@using App_data.ViewModels.ChiTietSPView
+@{
+    ViewData["Title"] = "GetAllSanPham";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<KhuyenMaiView> listkms = ViewBag.KhuyenMaiView;
+    List<ChiTietSanPham> listctsps = ViewBag.ChiTietSanPham;
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/userassets/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/userassets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/userassets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/userassets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Home</a>
+                    <a class="breadcrumb-item text-dark" href="#">Shop</a>
+                    <span class="breadcrumb-item active">Shop List</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+    <!-- Shop Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <!-- Shop Sidebar Start -->
+            
+            <div class="col-lg-3 col-md-4">
+                <form asp-action="TimSanPhamTheoTen" asp-controller="ChiTietSP" method="get" enctype="multipart/form-data">
+                    <div class="input-group">
+                        <input type="text" name="TenSanPham" class="form-control" placeholder="Search for products">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <button type="submit" class="fa fa-search"></button> 
+                            </span>
+                        </div>
+                    </div>
+                </form>
+                <!-- Price Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by price</span></h5>
+                <br />
+                <div class="bg-light p-4 mb-30">
+                    <form id="price-filter-form">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="price-all" val="all">
+                            <label class="custom-control-label" for="price-all">All Price</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-1" val="0-100000">
+                            <label class="custom-control-label" for="price-1">$0 - $100</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-2" val="100000-200000">
+                            <label class="custom-control-label" for="price-2">$100 - $200</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-3" val="200000-300000">
+                            <label class="custom-control-label" for="price-3">$200 - $300</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-4" val="300000-400000">
+                            <label class="custom-control-label" for="price-4">$300 - $400</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="price-5" val="400000-500000">
+                            <label class="custom-control-label" for="price-5">$400 - $500</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Price End -->
+                <!-- Color Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by color</span></h5>
+                <br />
+                <div class="bg-light p-4 mb-30">
+                    <form id="color-filter-form">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-all" val="all">
+                            <label class="custom-control-label" for="price-all">All Color</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-1" val="Black">
+                            <label class="custom-control-label" for="color-1">Black</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-2" val="White">
+                            <label class="custom-control-label" for="color-2">White</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-3" val="Red">
+                            <label class="custom-control-label" for="color-3">Red</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-4" val="Blue">
+                            <label class="custom-control-label" for="color-4">Blue</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="color-5" val="Green">
+                            <label class="custom-control-label" for="color-5">Green</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Color End -->
+                <!-- Size Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filter by size</span></h5>
+                <br />
+                <div class="bg-light p-4 mb-30">
+                    <form id="size-filter-form">
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="size-all" val="all">
+                            <label class="custom-control-label" for="size-all">All Size</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-1" val="XS">
+                            <label class="custom-control-label" for="size-1">XS</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-2" val="S">
+                            <label class="custom-control-label" for="size-2">S</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-3" val="M">
+                            <label class="custom-control-label" for="size-3">M</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-4" val="L">
+                            <label class="custom-control-label" for="size-4">L</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="size-5" val="XL">
+                            <label class="custom-control-label" for="size-5">XL</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <button id="btnFilter" style="color:green" class="fa fa-search">Tìm Kiếm Nâng Cao</button>
+                <!-- Size End -->
+            </div>
+            <!-- Shop Sidebar End -->
+            <!-- Shop Product Start -->
+            <div class="col-lg-9 col-md-8">
+                <div class="row pb-3" id="filtered-products">
+                   
+                    @foreach(var item in Model.chiTietSanPhams){
+                        <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                            <div class="product-item bg-light mb-4">
+                                <div class="product-img position-relative overflow-hidden">
+
+                                    @{
+                                        //var Idanh = chitiesps.FirstOrDefault(x=>x.IdSanPham==item.Id);
+                                        //var anh = Anhs.FirstOrDefault(x => x.Id == Idanh.IdAnh);
+                                       
+                                            string extension = System.IO.Path.GetExtension(item.TenAnh);
+                                            if (imageExtensions.Contains(extension.Trim()))
+                                            {
+                                                <img class="img-fluid w-100" src="~/userassets/img/@item.TenAnh"  />
+                                            }
+                                            else
+                                            {
+                                                <img class="img-fluid w-100" src="~/imgs/product-2.jpg" height="100px">
+                                            }
+                                        
+                                    }
+                                    <div class="product-action">
+                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                        <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                    </div>
+                                </div>
+                                <div class="text-center py-4">
+
+                                     
+                                            <a class="h6 text-decoration-none text-truncate" href="">@item.TenSanPham</a>
+                                        
+                                    
+                                    <div class="d-flex align-items-center justify-content-center mt-2">
+
+                                        @{
+                                            var idCt = listctsps.FirstOrDefault(x => x.Id == item.Id);
+                                            var tk = listkms.FirstOrDefault(x => x.Id == idCt.IdKhuyenMai);
+                                            if (tk != null)
+                                            {
+                                                if (tk.NgayKetThuc >= DateTime.Now)
+                                                {
+                                                    <h5 style="color:green">$@(item.GiaKhuyenMai - item.GiaKhuyenMai * tk.GiaTri / 100) VND</h5>
+                                                }
+                                                else if (tk.NgayKetThuc < DateTime.Now)
+                                                {
+                                                    <h5 style="color:red">$@item.GiaGoc.ToString("n0") VND</h5>
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <h5 style="color:red">$@item.GiaGoc.ToString("n0") VND</h5>
+                                            }
+                                        }
+                                       <h6 class="text-muted ml-2"><del>$@item.GiaGoc.ToString("n0") VND</del></h6>
+                                    </div>
+                                    
+                                       
+                                        
+                                            <div class="d-flex align-items-center justify-content-center mt-2">
+                                                <h5>Màu sắc: @item.TenMauSac</h5>
+                                            </div>
+                                    
+                                    
+                                    <div >
+                                        <button type="button" class="btn btn-success">  <a href="/GioHang/AddToCart/@item.Id" class="add-cart" style="color:red">+ Thêm vô giỏ</a></button>
+                                        <button type="button" class="btn btn-success"><a href="/ChiTietSP/Details/@item.Id" class="add-cart" style="color:orange"> Chi Tiết</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                   
+                    
+                        
+                    </div>
+                    <div class="col-12">
+                        <nav>
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
+                                @for(int i=1;i<=Model.PagingInfo.TotalPages;i++){
+                                <li class="page-item"><a class="page-link" href="/ChiTietSP/GetAllChiTietSanPham?ProductPage=@i">@i</a></li>
+                                
+                                }
+                               
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Shop Product End -->
+        </div>
+    </div>
+    <!-- Shop End -->
+
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/userassets/lib/easing/easing.min.js"></script>
+    <script src="~/userassets/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/userassets/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/userassets/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/userassets/js/main.js"></script>
+    <script>
+        document.getElementById("btnFilter").addEventListener("click", function () {
+
+            var priceRange = getSelectedChechboxes("price-filter-form");
+            var colors = getSelectedChechboxes("color-filter-form");
+            var sizes = getSelectedChechboxes("size-filter-form");
+            var data = {
+                PriceRanges: priceRange,
+                Colors: colors,
+                Sizes: sizes
+
+            }
+            fetch("/ChiTietSP/GetFilteredProducts", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+
+            }).then(function (response) {
+                if (response.ok) {
+                    return response.text();
+                } else {
+                    throw new Error("Error sening data to the controller");
+                }
+            }).then(function (results) {
+                $("#filtered-products").html(results)
+                
+
+            })
+                .catch(function (error) {
+                    console.log("An error occured: ", error)
+                })
+        })
+        
+        function getSelectedChechboxes(formId) {
+            var checkboxes = $('#' + formId + ' input[type="checkbox"]:checked');
+            values = []
+            checkboxes.each(function () {
+                values.push($(this).attr('val'));
+            })
+            return values;
+
+        }
+    </script>
+</body>
+
+</html>

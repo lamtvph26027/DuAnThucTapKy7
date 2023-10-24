@@ -1,0 +1,77 @@
+﻿@model IEnumerable<App_data.Models.Anh>
+@using App_data.Models;
+
+@{
+    ViewData["Title"] = "GetAllAnh";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    int stt = 1;
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+}
+
+<h2>Hiển Thị Tất Cả Ảnh</h2>
+
+<p>
+    <button class="btn-default" style="color:white">@Html.ActionLink("Thêm mới", "Create")</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+                Trạng Thái
+            </th>
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                <strong>@stt</strong>
+            </td>
+            <td>
+
+                    @{
+                        string extension = System.IO.Path.GetExtension(item.Ten);
+                        if (imageExtensions.Contains(extension.Trim()))
+                        {
+                            <img src="~/userassets/img/@item.Ten" style="width: 150px;height:150px" />
+                        }
+                        else
+                        {
+                            <img src="~/imgs/product-2.jpg" height="100px">
+                        }
+                    }
+            </td>
+            <td>
+                    @{
+                        var tt = item.TrangThai == 0 ? "Hết" : "Còn";
+                    }
+                    <strong style="color:green">@tt</strong>
+            </td>
+            <td>
+                    <button class="btn btn-success">
+                        @Html.ActionLink("Sửa", "Update", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+                    <button class="btn btn-primary">
+                        @Html.ActionLink("Chi tiết", "Details", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+                    <button class="btn btn-danger">
+                        @Html.ActionLink("Xóa", "Deletes", new { id = item.Id }, new { @style = "color:white;" })
+                    </button>
+            </td>
+            @{
+                stt++;
+            }
+        </tr>
+}
+    </tbody>
+</table>

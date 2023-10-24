@@ -1,0 +1,54 @@
+﻿@model App_data.Models.KhuyenMai
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Chi Tiết</h2>
+
+<div>
+    <h4>Khuyến Mại</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Ten)
+        </dd>
+        <dt>
+            Giá Trị
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.GiaTri)
+        </dd>
+        <dt>
+            Ngày Áp Dụng
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NgayApDung)
+        </dd>
+        <dt>
+            Ngày Kết Thúc
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NgayKetThuc)
+        </dd>
+        <dt>
+            Mô Tả
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt>
+            Trạng Thái
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TrangThai)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

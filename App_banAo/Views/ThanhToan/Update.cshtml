@@ -1,0 +1,55 @@
+﻿@model App_data.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
+}
+
+<h2>Sửa Hóa Đơn</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+           
+            
+            <div class="form-group">
+                <label  class="control-label">Ngày Thanh Toán</label>
+                <input asp-for="NgayThanhToan" class="form-control" />
+                <span asp-validation-for="NgayThanhToan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label  class="control-label"> Tên Người Nhận</label>
+                <input asp-for="TenNguoiNhan" class="form-control" />
+                <span asp-validation-for="TenNguoiNhan" class="text-danger"></span>
+            </div>
+           
+            
+            
+            <div class="form-group">
+                <label  class="control-label">Tiền Ship</label>
+                <input asp-for="TienShip" class="form-control" />
+                <span asp-validation-for="TienShip" class="text-danger"></span>
+            </div>
+            
+            
+            <div class="form-group">
+                <label  class="control-label">Trạng Thái </label>
+                <div>
+                    <select class="form-control" asp-for="IdTrangThaiGiaoHang">
+                        @foreach (var loaisp in dBContext.TrangThaiHoaDons.ToList())
+                        {
+                            <option value="@loaisp.Id">@loaisp.Ten</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Sửa" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+

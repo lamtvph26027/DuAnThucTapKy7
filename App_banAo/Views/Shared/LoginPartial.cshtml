@@ -1,0 +1,45 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var username = Context.Session.GetString("Email");
+}
+<div class="btn-group">
+    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">My Account</button>
+    <div class="dropdown-menu dropdown-menu-right">
+        @{
+            if (username != null)
+            {
+
+                <li>
+                    <a asp-controller="Login" asp-action="Login">
+                        Hello: @username
+                    </a>
+                </li>
+
+
+                <li>  <a class="dropdown-item" asp-controller="TaiKhoan" asp-action="ChangePassword">Đổi Mật Khẩu</a></li>
+
+                <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="UpdateTT">Thông Tin Của Tôi</a></li>
+                <li><a class="dropdown-item" asp-controller="TaiKhoan" asp-action="LogOut">Đăng Xuất</a></li>
+
+
+
+            }
+            else
+            {
+                <li>
+                    <a asp-area="" asp-controller="TaiKhoan" asp-action="Login">
+                        SIGN IN
+                    </a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="TaiKhoan" asp-action="DangKyTaiKhoan">
+                        Dang Ky
+                    </a>
+                </li>
+            }
+        }
+    </div>
+</div>

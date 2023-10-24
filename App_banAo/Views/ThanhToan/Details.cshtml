@@ -1,0 +1,139 @@
+﻿@using App_data.ViewModels.ChiTietSPView
+@model IEnumerable<App_data.Models.ChiTietHoaDon>
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    int stt = 1;
+    App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
+    List<KhuyenMaiView> listkms = ViewBag.KhuyenMaiView;
+    List<string> imageExtensions = new List<string>()
+    {
+         ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
+    };
+}
+
+<h2>Chi Tiết Hóa Đơn</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                STT
+            </th>
+            <th>
+                Tên SP
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+                Đơn Giá
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+               Tổng tiền trên SP
+            </th>
+            
+           
+            <th>Hành Động</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               <strong>@stt</strong>
+            </td>
+            <td>
+                    @{
+                        var IdChiTietsp = dBContext.ChiTietSanPhams.Find(item.IdChiTiepSP);
+                       
+                        var tensp = dBContext.SanPhams.Find(IdChiTietsp.IdSanPham);
+                        if(tensp!=null){
+                            <strong style="color:red">@tensp.Ten</strong>
+                        }
+                    }
+            </td>
+            <td>
+                @{
+                        var anh = dBContext.Anhs.Find(IdChiTietsp.IdAnh);
+                        if (anh != null)
+                        {
+                            string extension = System.IO.Path.GetExtension(anh.Ten);
+                            if (imageExtensions.Contains(extension.Trim()))
+                            {
+                                <img src="~/userassets/img/@anh.Ten" style="width: 150px;height:150px" />
+                            }
+                            else
+                            {
+                                <img src="~/imgs/product-2.jpg" height="100px">
+                            }
+                        }
+                    }
+                </td>
+                <td>
+                    @{
+                        var tk = listkms.FirstOrDefault(x => x.Id == IdChiTietsp.IdKhuyenMai);
+                        if (tk != null)
+                        {
+                            if (tk.NgayKetThuc >= DateTime.Now)
+
+                            {
+                                var thanhtien = item.SoLuong * (item.DonGia - item.DonGia * tk.GiaTri / 100);
+                                <strong style="color:green">$@(item.DonGia - item.DonGia * tk.GiaTri / 100) VND</strong>
+                            }
+                            else if (tk.NgayKetThuc < DateTime.Now)
+                            {
+                                var thanhtien = item.DonGia * item.SoLuong;
+                                <strong style="color:red">$@item.DonGia.ToString("n0") VND</strong>
+                            }
+                        }
+                        else
+                        {
+                            var thanhtien = item.DonGia * item.SoLuong;
+                            <strong style="color:red">$@item.DonGia.ToString("n0") VND</strong>
+                        }
+                    }
+            </td>
+            <td>
+                    <strong>@Html.DisplayFor(modelItem => item.SoLuong)</strong>
+            </td>
+            
+          
+            <td>
+                    @{
+                       
+                        if (tk != null)
+                        {
+                            if (tk.NgayKetThuc >= DateTime.Now)
+
+                            {
+                                var thanhtien = item.SoLuong * (item.DonGia - item.DonGia * tk.GiaTri / 100);
+                                <strong style="color:green">$@thanhtien.ToString("n0") VND</strong>
+                            }
+                            else if (tk.NgayKetThuc < DateTime.Now)
+                            {
+                                var thanhtien = item.DonGia * item.SoLuong;
+                                <strong style="color:red">$@thanhtien.ToString("n0") VND</strong>
+                            }
+                        }
+                        else
+                        {
+                            var thanhtien = item.DonGia * item.SoLuong;
+                            <strong style="color:red">$@thanhtien.ToString("n0") VND</strong>
+                        }
+                    }
+                    
+            </td>
+                @{
+                    stt++;
+                }
+        </tr>
+           
+}
+    </tbody>
+</table>

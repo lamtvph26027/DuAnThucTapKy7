@@ -1,0 +1,46 @@
+﻿@model App_data.Models.LoaiSP
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h2>Update</h2>
+
+<h4>LoaiSP</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Ten" class="control-label"></label>
+                <input asp-for="Ten" class="form-control" />
+                <span asp-validation-for="Ten" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TrangThai" class="control-label"></label>
+                <input asp-for="TrangThai" class="form-control" />
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdLoaiSPCha" class="control-label"></label>
+                <input asp-for="IdLoaiSPCha" class="form-control" />
+                <span asp-validation-for="IdLoaiSPCha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdChatLieu" class="control-label"></label>
+                <input asp-for="IdChatLieu" class="form-control" />
+                <span asp-validation-for="IdChatLieu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
