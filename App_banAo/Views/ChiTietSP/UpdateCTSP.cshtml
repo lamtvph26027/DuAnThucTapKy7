@@ -1,0 +1,134 @@
+﻿@using App_data.Models
+@using App_data.ViewModels.ChiTietSPView
+@model App_data.Models.ChiTietSanPham
+
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+    List<SanPham> listsp = ViewBag.SanPhams;
+    List<MauSac> listms = ViewBag.MauSacs;
+    List<Size> listsize = ViewBag.Size;
+    List<NhaCungCap> listncc = ViewBag.NhaCungCap;
+    List<LoaiSP> listlsp = ViewBag.LoaiSPs;
+    List<KhuyenMaiView> listkmv = ViewBag.KhuyenMaiView;
+    List<Anh> listanh = ViewBag.Anhs;
+}
+
+<h2>Sửa Chi Tiết Sản Phẩm</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Update">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group" hidden>
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Ảnh </label>
+                <div>
+                    <select class="form-control" asp-for="IdAnh">
+                        @foreach (var loaisp in listanh.ToList())
+                        {
+                            <option value="@loaisp.Id">@loaisp.Ten</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Tên Sản Phẩm </label>
+                <select class="form-control" asp-for="IdSanPham">
+                    @foreach (var loaisp in listsp.ToList())
+                    {
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Màu Sắc</label>
+                <select class="form-control" asp-for="IdMauSac">
+                    @foreach (var loaisp in listms.ToList())
+                    {
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Loại SP</label>
+                <select class="form-control" asp-for="IdLoaiSP">
+                    @foreach (var loaisp in listlsp.ToList())
+                    {
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Nhà Cung Cấp </label>
+                <select class="form-control" asp-for="IdNhaCungCap">
+                    @foreach (var loaisp in listncc.ToList())
+                    {
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Size</label>
+                <select class="form-control" asp-for="IdSize">
+                    @foreach (var loaisp in listsize.ToList())
+                    {
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Đơn giá </label>
+                <input asp-for="DonGia" class="form-control" />
+                <span asp-validation-for="DonGia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Số lượng </label>
+                <input asp-for="soluong" class="form-control" />
+                <span asp-validation-for="soluong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Khuyến mãi </label>
+                <select class="form-control" asp-for="IdKhuyenMai">
+                    if (Model.IdKhuyenMai == null)
+                    {
+                    <option value="">Ko Ap Dung KM</option>
+                    }
+                    @foreach (var loaisp in listkmv.ToList())
+                    {
+
+                        <option value="@loaisp.Id">@loaisp.Ten</option>
+                    }
+
+                </select>
+            </div>
+            <br />
+            <div class="form-group">
+                <label class="control-label">Trạng Thái </label>
+                <input asp-for="TrangThai" class="form-control" />
+                <span asp-validation-for="TrangThai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sửa Chi Tiết SP" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="GetAllChiTietSanPhamAdmin">Quay Lại</a>
+</div>
+

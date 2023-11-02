@@ -2252,11 +2252,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_API\\App_API.csproj",
+      "projectUniqueName": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_API\\App_API.csproj",
       "projectName": "App_API",
-      "projectPath": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_API\\App_API.csproj",
+      "projectPath": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_API\\App_API.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_API\\obj\\",
+      "outputPath": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2277,8 +2277,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_data\\App_data.csproj": {
-              "projectPath": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_data\\App_data.csproj"
+            "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_data\\App_data.csproj": {
+              "projectPath": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_data\\App_data.csproj"
             }
           }
         }

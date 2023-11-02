@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8CPB3015992NOQ0QwKtGLgdZkOCaLRRcQHZ5QsNOkj4JgD3wKIGmCXZ9+FuvJ5kvtO4pUtZNU8meqb7XnvtWpw==",
+  "dgSpecHash": "I7CzPjEQHPC3bHlWgoVzVta5P15umSe9Jp/v1pRoU/GqeesRRvr7+L5sRZq/ay5d/UD63jRg9L57J6PWOb1jHw==",
   "success": true,
-  "projectFilePath": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_banAo\\App_banAo.csproj",
+  "projectFilePath": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\App_banAo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

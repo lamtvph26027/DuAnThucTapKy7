@@ -214,79 +214,127 @@ namespace App_API.Controllers
 
 
         }
+        [Route("laytatcattt")]
+        [HttpGet]
+        public async Task<ChiTietSanPham> GetByIdtt(Guid id)
+        {
+            var sanPham = await _dbcontext.ChiTietSanPhams
+                .Include(sp => sp.listAnhs).Include(sp=>sp.listMauSacs).Include(sp=>sp.listSizes)
+                .FirstOrDefaultAsync(sp => sp.Id == id);
+
+            return sanPham;
+
+            
+        }
 
         // POST api/<ChiTietSPViewController>
-        [HttpPost]
-        public bool Post(ChiTietSPModel chiTietSPModel)
+
+        [Route("UpdateNhieuThuocTinh")]
+        [HttpPut]
+        public bool UpdateThuocTinh(ChiTietSPModel request)
         {
-            ChiTietSanPham chiTietSanPham = new ChiTietSanPham();
-            chiTietSanPham.Id = Guid.NewGuid();
-            chiTietSanPham.IdKhuyenMai = chiTietSPModel.IdKhuyenMai;
-            chiTietSanPham.IdAnh=chiTietSPModel.IdAnh;
-            chiTietSanPham.IdMauSac=chiTietSPModel.IdMauSac;
-            chiTietSanPham.IdSanPham = chiTietSPModel.IdSanPham;
-            chiTietSanPham.IdNhaCungCap = chiTietSPModel.IdNhaCungCap;
-            chiTietSanPham.IdSize = chiTietSPModel.IdSize;
-            chiTietSanPham.IdLoaiSP = chiTietSPModel.IdLoaiSP;
-            chiTietSanPham.DonGia=chiTietSPModel.DonGia;
-            chiTietSanPham.soluong = chiTietSanPham.soluong;
-            chiTietSanPham.TrangThai = chiTietSPModel.TrangThai;
-            _dbcontext.ChiTietSanPhams.Add(chiTietSanPham);
-            _dbcontext.SaveChanges();
-            foreach(var litsanhs in chiTietSPModel.listAnhs)
+            try
             {
-                var timanh = _dbcontext.Anhs.FirstOrDefault(x => x.Id == chiTietSanPham.IdAnh);
-                if(timanh==null)
-               
-                timanh.Id=Guid.NewGuid();
-                timanh.Ten=litsanhs.Ten;
-                timanh.TrangThai = 1;
-                _dbcontext.Anhs.Add(timanh);
-                _dbcontext.SaveChanges();
-            }
-            foreach (var litsmausacs in chiTietSPModel.listMauSacs)
-            {
-                var timmausac = _dbcontext.MauSacs.FirstOrDefault(x => x.Id == chiTietSanPham.IdMauSac);
-                if (timmausac == null)
+                // lay chi tiet san pham tu co so du lieu
+                var ct =  _dbcontext.ChiTietSanPhams.Include(sp => sp.listAnhs).Include(sp => sp.listMauSacs).Include(sp => sp.listSizes).FirstOrDefault(sp => sp.Id == request.id);
 
-                    timmausac.Id = Guid.NewGuid();
-                timmausac.Ten = litsmausacs.Ten;
-                timmausac.AnhMauSac = litsmausacs.AnhMauSac;
-                timmausac.TrangThai = 1;
-                _dbcontext.MauSacs.Add(timmausac);
-                _dbcontext.SaveChanges();
-            }
-            foreach (var litsizes in chiTietSPModel.listSizes)
-            {
-                var timsize = _dbcontext.Sizes.FirstOrDefault(x => x.Id == chiTietSanPham.IdSize);
-                if (timsize == null)
+                if (ct == null)
+                {
+                    return false;
+                }
+                else
+                {
 
-                    timsize.Id = Guid.NewGuid();
-                timsize.Ten = litsizes.Ten;
-                timsize.TrangThai = 1;
-                _dbcontext.Sizes.Add(timsize);
-                _dbcontext.SaveChanges();
+                    // Xóa các ảnh cũ
+                    foreach (var anh in ct.listAnhs.ToList())
+                    {
+                        if (!request.listAnhs.Contains(anh.Id))
+                        {
+                            ct.listAnhs.Remove(anh);
+                        }
+                    }
+                    ct.listAnhs = _dbcontext.Anhs.Where(a => request.listAnhs.Contains(a.Id)).ToList();
+                    //// Thêm các ảnh mới
+                    //foreach (var idAnh in request.listAnhs)
+                    //{
+                    //    if (!ct.listAnhs.Any(anh => anh.Id == idAnh))
+                    //    {
+                    //        var anh = new Anh { Id = idAnh };
+                    //        ct.listAnhs.Add(anh);
+                    //    }
+                    //}
+                    // Xóa các mausac cũ
+                    foreach (var anh in ct.listMauSacs.ToList())
+                    {
+                        if (!request.listAnhs.Contains(anh.Id))
+                        {
+                            ct.listMauSacs.Remove(anh);
+                        }
+                    }
+                    ct.listMauSacs = _dbcontext.MauSacs.Where(a => request.listMauSacs.Contains(a.Id)).ToList();
+                    //// Thêm các mausac mới
+                    //foreach (var idAnh in request.listMauSacs)
+                    //{
+                    //    if (!ct.listMauSacs.Any(anh => anh.Id == idAnh))
+                    //    {
+                    //        var anh = new MauSac { Id = idAnh };
+                    //        ct.listMauSacs.Add(anh);
+                    //    }
+                    //}
+                    // Xóa các size cũ
+                    foreach (var anh in ct.listSizes.ToList())
+                    {
+                        if (!request.listSizes.Contains(anh.Id))
+                        {
+                            ct.listSizes.Remove(anh);
+                        }
+                    }
+
+                    //// Thêm các size mới
+                    //foreach (var idAnh in request.listSizes)
+                    //{
+                    //    if (!ct.listSizes.Any(anh => anh.Id == idAnh))
+                    //    {
+                    //        var anh = new Size { Id = idAnh };
+                    //        ct.listSizes.Add(anh);
+                    //    }
+                    //}
+                    ct.listSizes = _dbcontext.Sizes.Where(a => request.listSizes.Contains(a.Id)).ToList();
+
+
+                    ct.soluong = request.soluong;
+                    ct.DonGia = request.DonGia;
+                    ct.TrangThai = request.TrangThai;
+                    _dbcontext.ChiTietSanPhams.Update(ct);
+                    _dbcontext.SaveChanges();
+
+                    return true;
+                    
+                }
             }
-            return true;
+            catch
+            {
+                return false;
+            }
 
         }
-       
+
 
         // PUT api/<ChiTietSPViewController>/5
         [Route("QLKhuyenMai")]
         [HttpPut]
-        public bool AddKMVoSP(List<ChiTietSanPham> qlkm,Guid IdKhuyenMai)
+        public bool AddKMVoSP(List<Guid> qlkm,Guid IdKhuyenMai)
         {
             foreach(var km in qlkm)
             {
-                var timidkm=_dbcontext.KhuyenMais.FirstOrDefault(x => x.Id == km.IdKhuyenMai);
+                var timidkm=_dbcontext.KhuyenMais.FirstOrDefault(x => x.Id == IdKhuyenMai);
                 if (timidkm.NgayKetThuc < DateTime.Now)
                 {
                     return false;
                 }
                 else
                 {
-                    var tim = _dbcontext.ChiTietSanPhams.FirstOrDefault(x => x.Id == km.Id);
+                    var tim = _dbcontext.ChiTietSanPhams.FirstOrDefault(x => x.Id == km);
                     if (tim != null)
                     {
                         tim.IdKhuyenMai = IdKhuyenMai;
@@ -299,7 +347,56 @@ namespace App_API.Controllers
             }
             return true;
         }
+       
+        [Route("ALlSPKhuyenMai")]
+        [HttpGet]
+        public async Task<List<AllSanPhamByKM>> GetAllSPKhuyenMai()
+        {
+            var AllCTSP = await (from CTSP in _dbcontext.ChiTietSanPhams.AsNoTracking()
 
+                                 join sp in _dbcontext.SanPhams.AsNoTracking() on CTSP.IdSanPham equals sp.Id
+
+                                 join anh in _dbcontext.Anhs.AsNoTracking() on CTSP.IdAnh equals anh.Id
+                                 join loaisp in _dbcontext.LoaiSPs.AsNoTracking() on CTSP.IdLoaiSP equals loaisp.Id
+
+                                 select new AllSanPhamByKM()
+                                 {
+                                     Id = sp.Id,
+                                     TenAnh = anh.Ten,
+                                     IdLoaiSP = loaisp.Id,
+                                     IdLoaiSpCha=loaisp.IdLoaiSPCha,
+                                     Ten = sp.Ten,
+                                     MoTa = sp.MoTa,
+                                     TimIdKM = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
+                                     TrangThai = sp.TrangThai
+                                 }).ToListAsync();
+            return AllCTSP;
+        }
+        [Route("ALlSPByLoaiSP")]
+        [HttpGet]
+        public async Task<List<AllSanPhamByKM>> GetAllSPByLoaiSP(Guid id,Guid? IdLoaiSPCha)
+        {
+            var AllCTSP = await (from CTSP in _dbcontext.ChiTietSanPhams.AsNoTracking()
+
+                                 join sp in _dbcontext.SanPhams.AsNoTracking() on CTSP.IdSanPham equals sp.Id
+
+                                 join anh in _dbcontext.Anhs.AsNoTracking() on CTSP.IdAnh equals anh.Id
+                                 join loaisp in _dbcontext.LoaiSPs.AsNoTracking() on CTSP.IdLoaiSP equals loaisp.Id
+                                 
+
+                                 select new AllSanPhamByKM()
+                                 {
+                                     Id = sp.Id,
+                                     TenAnh = anh.Ten,
+                                     IdLoaiSP = loaisp.Id,
+                                     IdLoaiSpCha = loaisp.IdLoaiSPCha,
+                                     Ten = sp.Ten,
+                                     MoTa = sp.MoTa,
+                                     TimIdKM = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
+                                     TrangThai = sp.TrangThai
+                                 }).Where(x=>x.IdLoaiSP==id||x.IdLoaiSP==id&&x.IdLoaiSpCha==IdLoaiSPCha).ToListAsync();
+            return AllCTSP;
+        }
         // DELETE api/<ChiTietSPViewController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)

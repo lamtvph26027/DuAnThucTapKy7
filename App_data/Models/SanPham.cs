@@ -9,6 +9,7 @@ namespace App_data.Models
 {
   public class SanPham
     {
+        [Key]
         public Guid Id { get; set; }
         [StringLength(40, ErrorMessage = "Ten san pham khong duoc dai qua 40 tu.")]
         public string Ten { get; set; }

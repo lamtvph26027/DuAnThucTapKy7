@@ -17,6 +17,7 @@ namespace App_API.Controllers
         AppDbcontext context = new AppDbcontext();
         public ChiTietSPController()
         {
+            context= new AppDbcontext();
             chitietsps = new AllRepositories<ChiTietSanPham>(context, context.ChiTietSanPhams);
             _khuyenmai = new AllRepositories<KhuyenMai>(context, context.KhuyenMais);
         }
@@ -32,6 +33,11 @@ namespace App_API.Controllers
         public ChiTietSanPham Get(Guid id)
         {
             return chitietsps.GetAll().FirstOrDefault(x => x.IdSanPham == id);
+        }
+        [HttpGet("(IdCTSP)")]
+        public ChiTietSanPham GetIdCYTSP(Guid id)
+        {
+            return chitietsps.GetAll().FirstOrDefault(x => x.Id == id);
         }
         [Route("TimMauSac")]
         [HttpGet]
@@ -51,21 +57,31 @@ namespace App_API.Controllers
         [HttpPost]
         public bool Post(Guid? IdKhuyenMai,int DonGia,int Soluong,int TrangThai, Guid IdAnh, Guid IdMauSac,Guid IdSanPham,Guid IdLoaiSp,Guid IdNhaCungCap,Guid IdSize)
         {
-            ChiTietSanPham chitietsp = new ChiTietSanPham();
-            chitietsp.Id=Guid.NewGuid();
-            chitietsp.IdKhuyenMai = IdKhuyenMai;
-            chitietsp.TrangThai = TrangThai;
-          chitietsp.DonGia = DonGia;    
-           
-            chitietsp.soluong=Soluong;
-            chitietsp.IdAnh=IdAnh;
-            chitietsp.IdMauSac=IdMauSac;
-            chitietsp.IdSanPham = IdSanPham;
-            chitietsp.IdLoaiSP=IdLoaiSp;
-            chitietsp.IdNhaCungCap = IdNhaCungCap;
-            chitietsp.IdSize = IdSize;
-        
-            return chitietsps.Add(chitietsp);
+            try
+            {
+                ChiTietSanPham chitietsp = new ChiTietSanPham();
+                chitietsp.Id = Guid.NewGuid();
+                chitietsp.IdKhuyenMai = IdKhuyenMai;
+                chitietsp.TrangThai = TrangThai;
+                chitietsp.DonGia = DonGia;
+
+                chitietsp.soluong = Soluong;
+                chitietsp.IdAnh = IdAnh;
+                chitietsp.IdMauSac = IdMauSac;
+                chitietsp.IdSanPham = IdSanPham;
+                chitietsp.IdLoaiSP = IdLoaiSp;
+                chitietsp.IdNhaCungCap = IdNhaCungCap;
+                chitietsp.IdSize = IdSize;
+
+                context.ChiTietSanPhams.Add(chitietsp);
+                context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+            
 
         }
 
@@ -95,41 +111,41 @@ namespace App_API.Controllers
                 return false;
             }
         }
-        //[Route("IdMauSac")]
-        //[HttpPut]
-        //public bool Put(Guid id,  Guid IdMauSac)
-        //{
-        //    var chitietsp = chitietsps.GetAll().FirstOrDefault(x => x.Id == id);
-        //    if (chitietsp != null)
-        //    {
-        //        chitietsp.IdMauSac = IdMauSac;
-               
-
-        //        return chitietsps.Update(chitietsp);
-        //    }
-        //    else
-        //    {
-        //        return false;
-        //    }
-        //}
-        //[Route("IdSize")]
-        //[HttpPut]
-        //public bool PutSize(Guid id, Guid IdSize)
-        //{
-        //    var chitietsp = chitietsps.GetAll().FirstOrDefault(x => x.Id == id);
-        //    if (chitietsp != null)
-        //    {
-        //        chitietsp.IdSize= IdSize;
+        [Route("IdMauSac")]
+        [HttpPut]
+        public bool Put(Guid id, Guid IdMauSac)
+        {
+            var chitietsp = chitietsps.GetAll().FirstOrDefault(x => x.Id == id);
+            if (chitietsp != null)
+            {
+                chitietsp.IdMauSac = IdMauSac;
 
 
+                return chitietsps.Update(chitietsp);
+            }
+            else
+            {
+                return false;
+            }
+        }
+        [Route("IdSize")]
+        [HttpPut]
+        public bool PutSize(Guid id, Guid IdSize)
+        {
+            var chitietsp = chitietsps.GetAll().FirstOrDefault(x => x.Id == id);
+            if (chitietsp != null)
+            {
+                chitietsp.IdSize = IdSize;
 
-        //        return chitietsps.Update(chitietsp);
-        //    }
-        //    else
-        //    {
-        //        return false;
-        //    }
-        //}
+
+
+                return chitietsps.Update(chitietsp);
+            }
+            else
+            {
+                return false;
+            }
+        }
 
         // DELETE api/<ChiTietSPController>/5
         [HttpDelete("{id}")]

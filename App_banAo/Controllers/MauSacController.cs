@@ -57,6 +57,7 @@ namespace App_banAo.Controllers
                 }
 
             }
+        
             var url = $"https://localhost:7016/api/MauSac?Ten={MauSac.Ten}&TrangThai={MauSac.TrangThai}&AnhMauSac={MauSac.AnhMauSac}";
             var response = await httpClients.PostAsync(url, null);
             if (response.IsSuccessStatusCode) return RedirectToAction("GetAllMauSac");

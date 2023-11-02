@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UxW9N+1HfnVyLGW00T9pXh+fGdRYjvP8kAsFTn4yRf5ajKqj7jjlVesFlMiafCmlsCG/RVHrdZmCr2LhXsv7Uw==",
+  "dgSpecHash": "4Wg5tV37mFF8NkaSjdL6BOBxTKFsxOid7t7MBbbh1r5gMqsNiNDlzln3xZj/wH21ph4O2tNNVBJnWfVifpGYYA==",
   "success": true,
-  "projectFilePath": "D:\\Dự án Thực tập_Kỳ 7\\Code Mới\\DuAnThucTapSvis8\\App_data\\App_data.csproj",
+  "projectFilePath": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_data\\App_data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
