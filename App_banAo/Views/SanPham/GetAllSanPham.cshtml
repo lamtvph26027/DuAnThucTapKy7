@@ -51,16 +51,23 @@
                 <td>
                     @{
                         var timkiem = allctsp.FirstOrDefault(x => x.IdSanPham == item.Id);
-                        var anh = listanh.FirstOrDefault(x => x.Id == timkiem.IdAnh);
-                        string extension = System.IO.Path.GetExtension(anh.Ten);
-                        if (imageExtensions.Contains(extension.Trim()))
-                        {
-                                        <img src="~/userassets/img/@anh.Ten" style="width: 150px;height:150px" />
+                        
+                        if(timkiem==null){
+                            <strong></strong>
                         }
-                        else
-                        {
-                                        <img src="~/imgs/product-2.jpg" height="100px">
+                        else{
+                            var anh = listanh.FirstOrDefault(x => x.Id == timkiem.IdAnh);
+                            string extension = System.IO.Path.GetExtension(anh.Ten);
+                            if (imageExtensions.Contains(extension.Trim()))
+                            {
+                                <img src="~/userassets/img/@anh.Ten" style="width: 150px;height:150px" />
+                            }
+                            else
+                            {
+                                <img src="~/imgs/product-2.jpg" height="100px">
+                            }
                         }
+                       
                     }
                 </td>
                 <td>

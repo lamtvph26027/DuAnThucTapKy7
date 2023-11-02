@@ -1,4 +1,5 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,7 +8,7 @@ namespace App_banAo.Controllers
     public class NhaCungCapController : Controller
     {
         private readonly HttpClient httpClients;
-
+        public int PageSize = 9;
         public NhaCungCapController()
         {
             httpClients = new HttpClient();
@@ -17,13 +18,25 @@ namespace App_banAo.Controllers
             return View();
         }
 
-        public async Task<IActionResult> GetAllNhaCungCap()
+        public async Task<IActionResult> GetAllNhaCungCap(int ProductPage = 1)
         {
             string apiUrl = "https://localhost:7016/api/NhaCungCap";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var NhaCungCaps = JsonConvert.DeserializeObject<List<NhaCungCap>>(apiData);
-            return View(NhaCungCaps);
+
+            return View(new NhaCungCapViewmodel
+            {
+                NhaCungCaps = NhaCungCaps
+                    .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = NhaCungCaps.Count()
+                }
+            });
+           // return View(NhaCungCaps);
         }
         public async Task<IActionResult> Create()
         {

@@ -1,4 +1,5 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,6 +8,7 @@ namespace App_banAo.Controllers
     public class LoaiSPController : Controller
     {
         private readonly HttpClient httpClients;
+        public int PageSize = 9;
 
         public LoaiSPController()
         {
@@ -17,13 +19,25 @@ namespace App_banAo.Controllers
             return View();
         }
 
-        public async Task<IActionResult> GetAllLoaiSP()
+        public async Task<IActionResult> GetAllLoaiSP(int ProductPage = 1)
         {
             string apiUrl = "https://localhost:7016/api/LoaiSP";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var LoaiSPs = JsonConvert.DeserializeObject<List<LoaiSP>>(apiData);
-            return View(LoaiSPs);
+            return View(new LoaiSpViewmodel
+            {
+                loaiSPs = LoaiSPs
+        .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = LoaiSPs.Count()
+                }
+            });
+
+            //return View(LoaiSPs);
         }
         public async Task<IActionResult> Create()
         {

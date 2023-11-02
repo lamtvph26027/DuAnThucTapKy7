@@ -40,3 +40,31 @@ C:\Users\Hoan\Source\Repos\DuAnThucTapSvis8\App_data\obj\Debug\net6.0\refint\App
 C:\Users\Hoan\Source\Repos\DuAnThucTapSvis8\App_data\obj\Debug\net6.0\App_data.pdb
 C:\Users\Hoan\Source\Repos\DuAnThucTapSvis8\App_data\obj\Debug\net6.0\App_data.genruntimeconfig.cache
 C:\Users\Hoan\Source\Repos\DuAnThucTapSvis8\App_data\obj\Debug\net6.0\ref\App_data.dll
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.deps.json
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.runtimeconfig.json
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.dll
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.pdb
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.csproj.AssemblyReference.cache
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.AssemblyInfoInputs.cache
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.AssemblyInfo.cs
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.csproj.CoreCompileInputs.cache
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.dll
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\refint\App_data.dll
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.pdb
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.genruntimeconfig.cache
+D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_data\obj\Debug\net6.0\ref\App_data.dll
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.deps.json
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.runtimeconfig.json
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.dll
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\bin\Debug\net6.0\App_data.pdb
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.csproj.AssemblyReference.cache
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.AssemblyInfoInputs.cache
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.AssemblyInfo.cs
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.csproj.CoreCompileInputs.cache
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.dll
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\refint\App_data.dll
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.pdb
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\App_data.genruntimeconfig.cache
+C:\Users\Hoan\Source\Repos\DuAnThucTapKy7\App_data\obj\Debug\net6.0\ref\App_data.dll

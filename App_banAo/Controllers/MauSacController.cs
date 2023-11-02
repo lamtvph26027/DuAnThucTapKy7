@@ -1,4 +1,5 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,6 +8,7 @@ namespace App_banAo.Controllers
     public class MauSacController : Controller
     {
         private readonly HttpClient httpClients;
+        public int PageSize = 9;
 
 
         public MauSacController()
@@ -18,14 +20,26 @@ namespace App_banAo.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> GetAllMauSac()
+        public async Task<IActionResult> GetAllMauSac(int ProductPage = 1)
         {
 
             string apiUrl = "https://localhost:7016/api/MauSac";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var MauSacs = JsonConvert.DeserializeObject<List<MauSac>>(apiData);
-            return View(MauSacs);
+            return View(new MauSacViewModel
+            {
+                mauSacs = MauSacs
+        .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = MauSacs.Count()
+                }
+            });
+
+            //return View(MauSacs);
         }
         public async Task<IActionResult> Create()
         {

@@ -28,6 +28,9 @@ namespace App_data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("ChiTietSanPhamId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Ten")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -36,6 +39,8 @@ namespace App_data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ChiTietSanPhamId");
 
                     b.ToTable("Anh", (string)null);
                 });
@@ -366,6 +371,9 @@ namespace App_data.Migrations
                     b.Property<string>("AnhMauSac")
                         .HasColumnType("nvarchar(MAX)");
 
+                    b.Property<Guid?>("ChiTietSanPhamId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Ten")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -374,6 +382,8 @@ namespace App_data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ChiTietSanPhamId");
 
                     b.ToTable("MauSac", (string)null);
                 });
@@ -443,6 +453,9 @@ namespace App_data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid?>("ChiTietSanPhamId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Ten")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -451,6 +464,8 @@ namespace App_data.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ChiTietSanPhamId");
 
                     b.ToTable("Size", (string)null);
                 });
@@ -485,11 +500,13 @@ namespace App_data.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("varchar(15)");
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
 
                     b.Property<string>("SDT")
                         .IsRequired()
-                        .HasColumnType("varchar(10)");
+                        .HasMaxLength(12)
+                        .HasColumnType("varchar(12)");
 
                     b.Property<string>("Ten")
                         .IsRequired()
@@ -545,6 +562,13 @@ namespace App_data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("VaiTro", (string)null);
+                });
+
+            modelBuilder.Entity("App_data.Models.Anh", b =>
+                {
+                    b.HasOne("App_data.Models.ChiTietSanPham", null)
+                        .WithMany("listAnhs")
+                        .HasForeignKey("ChiTietSanPhamId");
                 });
 
             modelBuilder.Entity("App_data.Models.ChiTietGioHang", b =>
@@ -725,6 +749,20 @@ namespace App_data.Migrations
                     b.Navigation("LoaiSPChas");
                 });
 
+            modelBuilder.Entity("App_data.Models.MauSac", b =>
+                {
+                    b.HasOne("App_data.Models.ChiTietSanPham", null)
+                        .WithMany("listMauSacs")
+                        .HasForeignKey("ChiTietSanPhamId");
+                });
+
+            modelBuilder.Entity("App_data.Models.Size", b =>
+                {
+                    b.HasOne("App_data.Models.ChiTietSanPham", null)
+                        .WithMany("listSizes")
+                        .HasForeignKey("ChiTietSanPhamId");
+                });
+
             modelBuilder.Entity("App_data.Models.TaiKhoan", b =>
                 {
                     b.HasOne("App_data.Models.VaiTro", "VaiTros")
@@ -753,6 +791,12 @@ namespace App_data.Migrations
                     b.Navigation("ChiTietHoaDons");
 
                     b.Navigation("DanhGias");
+
+                    b.Navigation("listAnhs");
+
+                    b.Navigation("listMauSacs");
+
+                    b.Navigation("listSizes");
                 });
 
             modelBuilder.Entity("App_data.Models.GioHang", b =>

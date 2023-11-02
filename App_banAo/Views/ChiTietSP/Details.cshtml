@@ -8,6 +8,7 @@
     App_data.Models.AppDbcontext dBContext = new App_data.Models.AppDbcontext();
     List<KhuyenMaiView> listkms = ViewBag.KhuyenMaiView;
     List<ChiTietSanPham> listctsps = ViewBag.ChiTietSanPham;
+    List<MauSac> listms = ViewBag.MauSacs;
     List<string> imageExtensions = new List<string>()
     {
          ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".pdf",".webp",".jfif"
@@ -74,13 +75,14 @@
                       
                         
                         @{
-                                
-                           
-                                        string extension = System.IO.Path.GetExtension(Model.TenAnh);
+                            var timkiem=listctsps.FirstOrDefault(x=>x.Id==Model.Id);
+                            var anhms = listms.FirstOrDefault(x => x.Id == timkiem.IdMauSac);
+
+                                        string extension = System.IO.Path.GetExtension(anhms.AnhMauSac);
                                 if (imageExtensions.Contains(extension.Trim()))
                                 {
                                                 <div class="carousel-item active">
-                                                <img class="w-100 h-100" src="~/userassets/img/@Model.TenAnh" alt="Image">
+                                                <img class="w-100 h-100" src="~/userassets/img/@anhms.AnhMauSac" alt="Image">
                                                 </div>
                                 }
                                 else
@@ -100,7 +102,7 @@
                     </a>
                 </div>
             </div>
-
+            <input value="@Model.Id" id="id-CTSP" hidden />
             <div class="col-lg-7 h-auto mb-30">
                 <div class="h-100 bg-light p-30">
                     @*@foreach(var tensp in Model.listMauSacs.ToList()){
@@ -163,17 +165,17 @@
                             
                             
                         </form>
-                        <form asp-action="UpdateSize" asp-controller="ChiTietSP" method="post" asp-route-id="@Model.Id">
-
-                            <select class="form-control"  name="IdSize">
+                        
+                        <form>
+                            <select class="form-control" id="laylistsize"  name="IdSize">
                                 @foreach (var thuoctinh in dBContext.Sizes.ToList())
                                 {
-                                    <option value="@thuoctinh.Id">@thuoctinh.Ten</option>
+                                    <option  value="@thuoctinh.Id">@thuoctinh.Ten</option>
                                 }
                             </select>
-                            <button  type="submit" class="btn btn-success" asp-route-id="@Model.Id">Chọn Size</button>
-
+                            <button type="submit" id="update-size" class="btn btn-success" >Chọn Size</button>
                         </form>
+                        
                     </div>
                     <div class="d-flex mb-4">
                         <strong class="text-dark mr-3">Colors:</strong>
@@ -188,7 +190,17 @@
                                 }  
                             }                         
                         </form>
-                      
+                        
+                        <form>
+                            <select class="form-control" id="laylistmausac" name="IdMauSac">
+                                @foreach (var thuoctinh in dBContext.MauSacs.ToList())
+                                {
+                                    <option value="@thuoctinh.Id" >@thuoctinh.Ten</option>
+                                }
+                            </select>
+                            <button type="submit" id="update-mausac" class="btn btn-success"><a>Chọn Màu Sắc</a></button>
+                        </form>
+                        
                        @* @await Html.PartialAsync("UpdateMauSac.cshtml")*@
                     </div>
                     <form asp-action="AddToCartSoLuong" asp-controller="GioHang" asp-route-id="@Model.Id">
@@ -493,6 +505,63 @@
 
     <!-- Template Javascript -->
     <script src="~/userassets/js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            
+
+            // Sự kiện khi click vào "Cập nhật"
+            $("#update-mausac").click(function () {
+                var selectedMauSac = $("#laylistmausac").val();
+
+                var id = $("#id-CTSP").val();
+                // Gửi dữ liệu lên server để cập nhật
+                $.ajax({
+                    url: "/ChiTietSP/UpdateMauSac",
+                    type: "POST",
+                    data: {
+                        id: id,
+                        IdMauSac: selectedMauSac
+                    },
+                    success: function (response) {
+                        if (response.success == true) {
+                            location.reload();
+                        } else {
+                            toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                        }
+                    },
+                    error: function (response) {
+                        console.log(response);
+                        toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                    }
+                });
+            });
+            $("#update-size").click(function () {
+                var selectedSize = $("#laylistsize").val();
+
+                var id = $("#id-CTSP").val();
+                // Gửi dữ liệu lên server để cập nhật
+                $.ajax({
+                    url: "/ChiTietSP/UpdateSize",
+                    type: "POST",
+                    data: {
+                        id: id,
+                        IdSize: selectedSize
+                    },
+                    success: function (response) {
+                        if (response.success == true) {
+                            location.reload();
+                        } else {
+                            toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                        }
+                    },
+                    error: function (response) {
+                        console.log(response);
+                        toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -177,6 +177,12 @@ namespace App_banAo.Controllers
             string DataAnh = await responseAnh.Content.ReadAsStringAsync();
             var Anh = JsonConvert.DeserializeObject<List<Anh>>(DataAnh);
             ViewBag.Anh = Anh;
+            // list mau sac
+            string apiUrlms = "https://localhost:7016/api/MauSac";
+            var responsems = await httpClients.GetAsync(apiUrlms);
+            string apiDatams = await responsems.Content.ReadAsStringAsync();
+            var MauSacs = JsonConvert.DeserializeObject<List<MauSac>>(apiDatams);
+            ViewBag.MauSacs = MauSacs;  
             //list km
             string apiUrl1 = "https://localhost:7016/api/KhuyenMai";
             var response1 = await httpClients.GetAsync(apiUrl1);
@@ -190,45 +196,253 @@ namespace App_banAo.Controllers
             var AllCTSanPhams = JsonConvert.DeserializeObject<AllChiTietSanPham>(apiData);
             return View(AllCTSanPhams);
         }
-        // Update MauSac CTSP
-        public IActionResult UpdateMauSac(Guid id)
-        {
-            var url = $"https://localhost:7016/api/SanPham/{id}";
-            var response = httpClients.GetAsync(url).Result;
-            var result = response.Content.ReadAsStringAsync().Result;
-            var SanPhams = JsonConvert.DeserializeObject<ChiTietSanPham>(result);
-            return View(SanPhams);
-        }
+        
         [HttpPost]
 
-        public async Task<IActionResult> UpdateMauSac(ChiTietSanPham sanpham)
+        public async Task<IActionResult> UpdateMauSac(Guid id,Guid IdMauSac)
         {  
 
             var url =
-                $"https://localhost:7016/api/ChiTietSP/IdMauSac?id={sanpham.Id}&IdMauSac={sanpham.IdMauSac}";
+                $"https://localhost:7016/api/ChiTietSP/IdMauSac?id={id}&IdMauSac={IdMauSac}";
             var response = await httpClients.PutAsync(url, null);
-            if (response.IsSuccessStatusCode) return RedirectToAction("GetAllChiTietSanPham");
-            return View();
+            if (response.IsSuccessStatusCode) return Json(new { success = true, message = "Cập nhật thành công!" });
+            return Json(new { success = false });
         }
         // Update Size CTSP
-        public IActionResult UpdateSize(Guid id)
-        {
-            var url = $"https://localhost:7016/api/SanPham/{id}";
-            var response = httpClients.GetAsync(url).Result;
-            var result = response.Content.ReadAsStringAsync().Result;
-            var SanPhams = JsonConvert.DeserializeObject<ChiTietSanPham>(result);
-            return View(SanPhams);
-        }
+        
         [HttpPost]
 
-        public async Task<IActionResult> UpdateSize(ChiTietSanPham sanpham)
+        public async Task<IActionResult> UpdateSize(Guid id,Guid IdSize)
         {
            
             var url =
-                $"https://localhost:7016/api/ChiTietSP/IdSize?id={sanpham.Id}&IdSize={sanpham.IdSize}";
+                $"https://localhost:7016/api/ChiTietSP/IdSize?id={id}&IdSize={IdSize}";
             var response = await httpClients.PutAsync(url, null);
-            if (response.IsSuccessStatusCode) return RedirectToAction("Details");
+            if (response.IsSuccessStatusCode) return Json(new { success = true, message = "Cập nhật thành công!" });
+            return Json(new { success = false });
+        }
+        // update nhieu thuoc tinh
+
+        #region Admin CTSP
+        [HttpGet]
+
+        public async Task<IActionResult> GetAllChiTietSanPhamAdmin(int ProductPage = 1)
+        {
+            //list ctsp
+            string apiUrlct = "https://localhost:7016/api/ChiTietSP";
+            var responsect = await httpClients.GetAsync(apiUrlct);
+            string apiDatact = await responsect.Content.ReadAsStringAsync();
+            var CTSanPhams = JsonConvert.DeserializeObject<List<ChiTietSanPham>>(apiDatact);
+            ViewBag.ChiTietSanPham = CTSanPhams;
+            // list anh 
+            string urlAnh = "https://localhost:7016/api/Anh";
+            var responseAnh = await httpClients.GetAsync(urlAnh);
+            string DataAnh = await responseAnh.Content.ReadAsStringAsync();
+            var Anh = JsonConvert.DeserializeObject<List<Anh>>(DataAnh);
+            ViewBag.Anh = Anh;
+            //list km
+            string apiUrl1 = "https://localhost:7016/api/KhuyenMai";
+            var response1 = await httpClients.GetAsync(apiUrl1);
+            string apiData1 = await response1.Content.ReadAsStringAsync();
+            var KhuyenMais = JsonConvert.DeserializeObject<List<KhuyenMaiView>>(apiData1);
+            ViewBag.KhuyenMaiView = KhuyenMais;
+            //List AllChiTietSP
+            string apiUrl = "https://localhost:7016/api/ChiTietSPView";
+            var response = await httpClients.GetAsync(apiUrl);
+            string apiData = await response.Content.ReadAsStringAsync();
+            var AllCTSanPhams = JsonConvert.DeserializeObject<List<AllChiTietSanPham>>(apiData);
+
+            return View(/*CTSanPhams*/
+
+                new ProductListViewModel
+                {
+                    chiTietSanPhams = AllCTSanPhams
+                    .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                    PagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = ProductPage,
+                        TotalItems = CTSanPhams.Count()
+                    }
+
+                }
+                );
+        }
+        [HttpGet]
+        public async Task<IActionResult> TimSanPhamTheoTenAdmin(string TenSanPham, int ProductPage = 1)
+        {
+
+
+            //list ctsp
+            string apiUrlct = "https://localhost:7016/api/ChiTietSP";
+            var responsect = await httpClients.GetAsync(apiUrlct);
+            string apiDatact = await responsect.Content.ReadAsStringAsync();
+            var CTSanPhams = JsonConvert.DeserializeObject<List<ChiTietSanPham>>(apiDatact);
+            ViewBag.ChiTietSanPham = CTSanPhams;
+            // list anh 
+            string urlAnh = "https://localhost:7016/api/Anh";
+            var responseAnh = await httpClients.GetAsync(urlAnh);
+            string DataAnh = await responseAnh.Content.ReadAsStringAsync();
+            var Anh = JsonConvert.DeserializeObject<List<Anh>>(DataAnh);
+            ViewBag.Anh = Anh;
+            //list km
+            string apiUrl1 = "https://localhost:7016/api/KhuyenMai";
+            var response1 = await httpClients.GetAsync(apiUrl1);
+            string apiData1 = await response1.Content.ReadAsStringAsync();
+            var KhuyenMais = JsonConvert.DeserializeObject<List<KhuyenMaiView>>(apiData1);
+            ViewBag.KhuyenMaiView = KhuyenMais;
+            //list All CTSP
+            string apiUrl = $"https://localhost:7016/api/ChiTietSPView/TimKiem?name={TenSanPham}";
+            var response = await httpClients.GetAsync(apiUrl);
+            string apiData = await response.Content.ReadAsStringAsync();
+            var AllCTSanPhams = JsonConvert.DeserializeObject<List<AllChiTietSanPham>>(apiData);
+            return PartialView(/*CTSanPhams*/"GetAllChiTietSanPhamAdmin",
+
+              new ProductListViewModel
+              {
+                  chiTietSanPhams = AllCTSanPhams
+                    .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                  PagingInfo = new PagingInfo
+                  {
+                      ItemsPerPage = PageSize,
+                      CurrentPage = ProductPage,
+                      TotalItems = CTSanPhams.Count()
+                  }
+
+              }
+                );
+        }
+        public IActionResult Create()
+        {
+            //// list size
+            //string apiUrlsize = "https://localhost:7016/api/Size";
+            //var responsesize = await httpClients.GetAsync(apiUrlsize);
+            //string apiDatasize = await responsesize.Content.ReadAsStringAsync();
+            //var Sizes = JsonConvert.DeserializeObject<List<Size>>(apiDatasize);
+            //ViewBag.Size = Sizes;
+            //// list loai SP
+            //string apiUrllsp = "https://localhost:7016/api/LoaiSP";
+            //var responselsp = await httpClients.GetAsync(apiUrllsp);
+            //string apiDatalsp = await responselsp.Content.ReadAsStringAsync();
+            //var LoaiSPs = JsonConvert.DeserializeObject<List<LoaiSP>>(apiDatalsp);
+            //ViewBag.LoaiSPs = LoaiSPs;
+            //// list MauSac
+            //string apiUrlms = "https://localhost:7016/api/MauSac";
+            //var responsems = await httpClients.GetAsync(apiUrlms);
+            //string apiDatams = await responsems.Content.ReadAsStringAsync();
+            //var MauSacs = JsonConvert.DeserializeObject<List<MauSac>>(apiDatams);
+            //ViewBag.MauSacs = MauSacs;
+            //// list SanPham
+            //string apiUrlsp = "https://localhost:7016/api/SanPham";
+            //var responsesp = await httpClients.GetAsync(apiUrlsp);
+            //string apiDatasp = await responsesp.Content.ReadAsStringAsync();
+            //var SanPhams = JsonConvert.DeserializeObject<List<SanPham>>(apiDatasp);
+            //ViewBag.SanPhams = SanPhams;
+            //// list NCC
+            //string apiUrlNCC = "https://localhost:7016/api/NhaCungCap";
+            //var responseNCC = await httpClients.GetAsync(apiUrlNCC);
+            //string apiDataNCC = await responseNCC.Content.ReadAsStringAsync();
+            //var NhaCungCaps = JsonConvert.DeserializeObject<List<NhaCungCap>>(apiDataNCC);
+            //ViewBag.NhaCungCap = NhaCungCaps;
+            //// list Anh
+            //string apiUrlanh = "https://localhost:7016/api/Anh";
+            //var responseanh = await httpClients.GetAsync(apiUrlanh);
+            //string apiDataanh = await responseanh.Content.ReadAsStringAsync();
+            //var Anhs = JsonConvert.DeserializeObject<List<Anh>>(apiDataanh);
+            //ViewBag.Anhs = Anhs;
+            //// list KMV
+            //string apiUrl1 = "https://localhost:7016/api/KhuyenMai";
+            //var response1 = await httpClients.GetAsync(apiUrl1);
+            //string apiData1 = await response1.Content.ReadAsStringAsync();
+            //var KhuyenMais = JsonConvert.DeserializeObject<List<KhuyenMaiView>>(apiData1);
+            //ViewBag.KhuyenMaiView = KhuyenMais;
+
+
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> Create(ChiTietSanPham ctsp)
+        {
+           
+            var response = await httpClients.PostAsync($"https://localhost:7016/api/ChiTietSP?IdKhuyenMai={ctsp.IdKhuyenMai}&DonGia={ctsp.DonGia}&Soluong={ctsp.soluong}&TrangThai={ctsp.TrangThai}&IdAnh={ctsp.IdAnh}&IdMauSac={ctsp.IdMauSac}&IdSanPham={ctsp.IdSanPham}&IdLoaiSp={ctsp.IdLoaiSP}&IdNhaCungCap={ctsp.IdNhaCungCap}&IdSize={ctsp.IdSize}", null);
+            if (response.IsSuccessStatusCode) return RedirectToAction("GetAllChiTietSanPhamAdmin");
+            return View();
+           
+            
+        }
+        public async Task<IActionResult> UpdateCTSP(Guid id)
+        {
+            // list size
+            string apiUrlsize = "https://localhost:7016/api/Size";
+            var responsesize = await httpClients.GetAsync(apiUrlsize);
+            string apiDatasize = await responsesize.Content.ReadAsStringAsync();
+            var Sizes = JsonConvert.DeserializeObject<List<Size>>(apiDatasize);
+            ViewBag.Size = Sizes;
+            // list loai SP
+            string apiUrllsp = "https://localhost:7016/api/LoaiSP";
+            var responselsp = await httpClients.GetAsync(apiUrllsp);
+            string apiDatalsp = await responselsp.Content.ReadAsStringAsync();
+            var LoaiSPs = JsonConvert.DeserializeObject<List<LoaiSP>>(apiDatalsp);
+            ViewBag.LoaiSPs = LoaiSPs;
+            // list MauSac
+            string apiUrlms = "https://localhost:7016/api/MauSac";
+            var responsems = await httpClients.GetAsync(apiUrlms);
+            string apiDatams = await responsems.Content.ReadAsStringAsync();
+            var MauSacs = JsonConvert.DeserializeObject<List<MauSac>>(apiDatams);
+            ViewBag.MauSacs = MauSacs;
+            // list SanPham
+            string apiUrlsp = "https://localhost:7016/api/SanPham";
+            var responsesp = await httpClients.GetAsync(apiUrlsp);
+            string apiDatasp = await responsesp.Content.ReadAsStringAsync();
+            var SanPhams = JsonConvert.DeserializeObject<List<SanPham>>(apiDatasp);
+            ViewBag.SanPhams = SanPhams;
+            // list NCC
+            string apiUrlNCC = "https://localhost:7016/api/NhaCungCap";
+            var responseNCC = await httpClients.GetAsync(apiUrlNCC);
+            string apiDataNCC = await responseNCC.Content.ReadAsStringAsync();
+            var NhaCungCaps = JsonConvert.DeserializeObject<List<NhaCungCap>>(apiDataNCC);
+            ViewBag.NhaCungCap = NhaCungCaps;
+            // list Anh
+            string apiUrlanh = "https://localhost:7016/api/Anh";
+            var responseanh = await httpClients.GetAsync(apiUrlanh);
+            string apiDataanh = await responseanh.Content.ReadAsStringAsync();
+            var Anhs = JsonConvert.DeserializeObject<List<Anh>>(apiDataanh);
+            ViewBag.Anhs = Anhs;
+            // list KMV
+            string apiUrl1 = "https://localhost:7016/api/KhuyenMai";
+            var response1 = await httpClients.GetAsync(apiUrl1);
+            string apiData1 = await response1.Content.ReadAsStringAsync();
+            var KhuyenMais = JsonConvert.DeserializeObject<List<KhuyenMaiView>>(apiData1);
+            ViewBag.KhuyenMaiView = KhuyenMais;
+          
+           // detail  1 ctsp
+            var url = $"https://localhost:7016/api/ChiTietSP/(IdCTSP)?id={id}";
+            var response = httpClients.GetAsync(url).Result;
+            var result = response.Content.ReadAsStringAsync().Result;
+            var CTSP= JsonConvert.DeserializeObject<ChiTietSanPham>(result);
+            return View(CTSP);
+           
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(ChiTietSanPham ctsp)
+        {
+
+            var response = await httpClients.PutAsync($"https://localhost:7016/api/ChiTietSP/Id?id={ctsp.Id}&IdKhuyenMai={ctsp.IdKhuyenMai}&DonGia={ctsp.DonGia}&Soluong={ctsp.soluong}&TrangThai={ctsp.TrangThai}&IdAnh={ctsp.IdAnh}&IdMauSac={ctsp.IdMauSac}&IdSanPham={ctsp.IdSanPham}&IdLoaiSp={ctsp.IdLoaiSP}&IdNhaCungCap={ctsp.IdNhaCungCap}&IdSize={ctsp.IdSize}", null);
+            if (response.IsSuccessStatusCode) return RedirectToAction("GetAllChiTietSanPhamAdmin");
+            return View();
+            
+
+        }
+        
+        public async Task<IActionResult> Deletes(Guid id)
+        {
+            var response = await httpClients.DeleteAsync($"https://localhost:7016/api/ChiTietSP/{id}");
+            if (response.IsSuccessStatusCode) return RedirectToAction("GetAllChiTietSanPhamAdmin");
+            return View();
+        }
+
+
+        #endregion
+
     }
 }

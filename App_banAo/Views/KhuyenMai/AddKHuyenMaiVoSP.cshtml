@@ -1,6 +1,6 @@
 ﻿@using App_data.Models
 @using App_data.ViewModels.ChiTietSPView
-@model App_banAo.Models.QLKhuyenMaiModel
+@model App_banAo.Models.ProductListViewModel
 @{
     ViewData["Title"] = "AddKHuyenMaiVoSP";
     Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
@@ -10,6 +10,7 @@
     List<MauSac> listms = ViewBag.MauSac;
     List<Size> listsize = ViewBag.Size;
     List<Anh> listanh = ViewBag.Anh;
+    int stt = 1;
 
     List<string> imageExtensions = new List<string>()
     {
@@ -18,157 +19,239 @@
 
 }
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="~/userassets/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="~/userassets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="~/userassets/css/style.css" rel="stylesheet">
+   
 
 
 <h2>Thêm Khuyến mãi Sản Phẩm</h2>
 <hr />
 
-            <div class="form-group" style="width:700px">
+            
                 <label class="control-label">Mã Khuyến Mãi </label>
                 <div>
-                    <select class="form-control" name="IdKhuyenMai" style="width:700px;height:50px">
+        <select id="khuyenMaiSelect" class="form-control" style="width:700px;height:50px">
                         @foreach (var loaisp in listkms.ToList())
                         {
-                            <option value="@loaisp.Id">@loaisp.Ten</option>
+                            <option  value="@loaisp.Id">@loaisp.Ten</option>
                         }
                     </select>
                 </div>
 
-            </div>
+            
             <!-- Nhieu CSTP start-->
 
-<div class="col-lg-9 col-md-8">
-    <div class="row pb-3" id="filtered-products">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Chọn
+            </th>
+            <th>
+                STT
+            </th>
 
-                    @foreach (var item in Model.ChiTietSanPhams)
-                    {
-            <div class="col-lg-4 " >
-                <div class="product-item bg-light mb-4">
-                                <div class="product-img position-relative overflow-hidden">
+            <th>
+                Tên SP
+            </th>
 
-                                    @{
+            <th>
+                Tên Khuyến Mãi
+            </th>
+            <th>
+                Tên Màu Sắc
+            </th>
+            <th>
+                Tên Size
+            </th>
+            <th>
+                Giá Khuyến Mãi
+            </th>
+            <th>
+                Giá Trị KM
+            </th>
+            <th>
+                Giá Gốc
+            </th>
+            <th>
+                Trạng Thái
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.chiTietSanPhams)
+        {
+            <tr>
+                <td>
+                    <input type="checkbox" class="sanpham-checkbox" data-id="@item.Id">
+                </td>
+                <td>
+                    @stt
+                </td>
 
-                                        var anh = listanh.FirstOrDefault(x => x.Id == item.IdAnh);
-                                        var sanpham = listsp.FirstOrDefault(x => x.Id == item.IdSanPham);
-                                        var mausac = listms.FirstOrDefault(x => x.Id == item.IdMauSac);
-                                        var size = listsize.FirstOrDefault(x => x.Id == item.IdSize);
+                <td>
+                    <strong style="color:red">@item.TenSanPham</strong>
+                </td>
 
-                                        string extension = System.IO.Path.GetExtension(anh.Ten);
-                                        if (imageExtensions.Contains(extension.Trim()))
-                                        {
-                                                                <img style="width:100px;" class="img-fluid w-100" src="~/userassets/img/@anh.Ten" />
-                                        }
-                                        else
-                                        {
-                                                                <img class="img-fluid w-100" src="~/imgs/product-2.jpg" height="100px">
-                                        }
-
-                                    }
-                                    <div class="product-action">
-                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                                        <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                                        <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                                    </div>
-                                </div>
-                                <div class="text-center py-4">
-
-
-                                    <a class="h6 text-decoration-none text-truncate" href="">@sanpham.Ten</a>
-
-
-                                    <div class="d-flex align-items-center justify-content-center mt-2">
-
-                                        @{
-                                           
-                                            var tk = listkms.FirstOrDefault(x => x.Id == item.IdKhuyenMai);
-                                            if (tk != null)
-                                            {
-                                                if (tk.NgayKetThuc >= DateTime.Now)
-                                                {
-                                                                        <h5 style="color:green">$@(item.DonGia - item.DonGia * tk.GiaTri / 100) VND</h5>
-                                                }
-                                                else if (tk.NgayKetThuc < DateTime.Now)
-                                                {
-                                                                        <h5 style="color:red">$@item.DonGia.ToString("n0") VND</h5>
-                                                }
-                                            }
-                                            else
-                                            {
-                                                                    <h5 style="color:red">$@item.DonGia.ToString("n0") VND</h5>
-                                            }
-                                        }
-                                        <h6 class="text-muted ml-2"><del>$@item.DonGia.ToString("n0") VND</del></h6>
-                                    </div>
-
-
-
-                                    <div class="d-flex align-items-center justify-content-center mt-2">
-                                        <h5>Màu sắc: @mausac.Ten</h5>
-                                    </div>
-
-
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                                        </div>
-                                </div>
-                            </div>
-                        </div>
-                    }
-
-
-
-                </div>
-                </div>
-                <div class="col-12">
-                    <nav>
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
-                            @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+                <td>
+                    @{
+                        var idCt = listctsp.FirstOrDefault(x => x.Id == item.Id);
+                        var tk = listkms.FirstOrDefault(x => x.Id == idCt.IdKhuyenMai);
+                        if (tk != null)
+                        {
+                            if (tk.NgayKetThuc >= DateTime.Now)
                             {
-                                <li class="page-item"><a class="page-link" href="/KhuyenMai/AddKHuyenMaiVoSP?ProductPage=@i">@i</a></li>
-
+                                <strong style="color:green">@tk.Ten</strong>
+                            }
+                            else if (tk.NgayKetThuc < DateTime.Now)
+                            {
+                                <strong style="color:red">@tk.Ten hết hạn rồi</strong>
                             }
 
-                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                        }
+                        else
+                        {
+                            <strong></strong>
+                        }
+                    }
+                </td>
+
+                <td>
+                    <strong style="color:brown">@item.TenMauSac</strong>
+                </td>
+                <td>
+                    <strong style="color:red">@item.TenSize</strong>
+                </td>
+                <td>
+                    @{
+                        if (tk != null)
+                        {
+                            if (tk.NgayKetThuc >= DateTime.Now)
+                            {
+                                <strong style="color:green">$@(item.GiaKhuyenMai - item.GiaKhuyenMai * tk.GiaTri / 100) VND</strong>
+                            }
+                            else if (tk.NgayKetThuc < DateTime.Now)
+                            {
+                                <strong style="color:red">$@item.GiaGoc.ToString("n0") VND</strong>
+                            }
+                        }
+                        else
+                        {
+                            <strong style="color:red">$@item.GiaGoc.ToString("n0") VND</strong>
+                        }
+                    }
+
+                </td>
+                <td>
+                    @{
+                        if (tk != null)
+                        {
+                            <strong style="color:green">@tk.GiaTri%</strong>
+                        }
+                        else
+                        {
+                            <strong></strong>
+                        }
+                    }
+
+                </td>
+                <td>
+                    <strong style="color:red"><del>$@item.GiaGoc.ToString("n0") VND</del></strong>
+                </td>
+                <td>
+                    @{
+
+                        if (item.TrangThai == 0)
+                        {
+                            <strong style="color:red">Hết Hàng</strong>
+                        }
+                        else
+                        {
+                            <strong style="color:green">Còn Hàng</strong>
+                        }
+                    }
+
+                </td>
+                 @{
+                    stt++;
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="col-12">
+    <nav>
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</span></a></li>
+            @for (int i = 1; i <= Model.PagingInfo.TotalPages; i++)
+            {
+                <li class="page-item"><a class="page-link" href="/KhuyenMai/AddKHuyenMaiVoSP?ProductPage=@i">@i</a></li>
+
+            }
+
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
           
             <!-- Nhieu CSTP end-->
-
-            <div class="form-group">
-    <input type="submit" class="btn btn-success" asp-action="AddKHuyenMaiVoSP" asp-controller="KhuyenMai" value="Thêm Khuyến Mãi Vô" class="btn btn-default" />
-            </div>
+<button id="selectAllCheckbox" class="btn btn-primary">Chọn tất cả</button>
+<br />
+<div class="form-group">
+    <button id="updateButton" class="btn btn-primary">Add Vo SP</button>
+</div>
    
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="GetAllKhuyenMai">Quay lại</a>
 </div>
 <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="~/userassets/lib/easing/easing.min.js"></script>
-<script src="~/userassets/lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="~/js/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
 
-<!-- Contact Javascript File -->
-<script src="~/userassets/mail/jqBootstrapValidation.min.js"></script>
-<script src="~/userassets/mail/contact.js"></script>
+<script>
+    $(document).ready(function () {
+        // Sự kiện khi click vào "Chọn tất cả"
+        $("#selectAllCheckbox").click(function () {
+            $(".sanpham-checkbox").prop("checked", true);
+        });
 
-<!-- Template Javascript -->
-<script src="~/userassets/js/main.js"></script>
+        // Sự kiện khi click vào "Cập nhật"
+        $("#updateButton").click(function () {
+            var selectedKhuyenMai = $("#khuyenMaiSelect").val();
+            var selectedSanPham = [];
+
+            $(".sanpham-checkbox:checked").each(function () {
+                selectedSanPham.push($(this).data("id"));
+            });
+
+            // Gửi dữ liệu lên server để cập nhật
+            $.ajax({
+                url: "/KhuyenMai/AddKHuyenMaiVoSP",
+                type: "POST",
+                data: {
+                    idKhuyenMai: selectedKhuyenMai,
+                    sanphams: selectedSanPham
+                },
+                success: function (response) {
+                    if (response.success == true) {
+                            location.reload();
+                    } else {
+                        toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                    }
+                },
+                error: function (response) {
+                    console.log(response);
+                    toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                }
+            });
+        });
+    });
+
+</script>
 
 

@@ -1,4 +1,5 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,6 +8,7 @@ namespace App_banAo.Controllers
     public class ChatLieuController : Controller
     {
         private readonly HttpClient httpClients;
+        public int PageSize = 9;
 
         public ChatLieuController()
         {
@@ -17,13 +19,25 @@ namespace App_banAo.Controllers
             return View();
         }
 
-        public async Task<IActionResult> GetAllChatLieu()
+        public async Task<IActionResult> GetAllChatLieu(int ProductPage = 1)
         {
             string apiUrl = "https://localhost:7016/api/ChatLieu";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var ChatLieus = JsonConvert.DeserializeObject<List<ChatLieu>>(apiData);
-            return View(ChatLieus);
+            return View(new ChatLieuViewModel
+            {
+                chatLieus = ChatLieus
+        .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = ChatLieus.Count()
+                }
+            });
+
+            //return View(ChatLieus);
         }
         public async Task<IActionResult> Create()
         {

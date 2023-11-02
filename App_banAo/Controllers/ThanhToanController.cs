@@ -101,7 +101,7 @@ namespace App_banAo.Controllers
             var ctsanPhams = JsonConvert.DeserializeObject<List<ChiTietSanPham>>(apiData);
            
             hoaDonViewModel.PhuongThucThanhToan = "TTKNH";
-            hoaDonViewModel.IdTrangThaiGiaoHang = Guid.Parse("febe0fa7-ee12-40cb-a0de-483b951ff414");
+            hoaDonViewModel.IdTrangThaiGiaoHang = Guid.Parse("e37cd89e-97ca-4348-93f2-da36d7926e6e");
             hoaDonViewModel.TienShip = 0;
             //hoaDonViewModel.DiaChi = "123455432344";
             hoaDonViewModel.ChiTietHoaDons = new List<ChiTietHoaDonView>();

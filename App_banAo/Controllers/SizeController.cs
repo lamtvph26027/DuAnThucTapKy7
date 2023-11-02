@@ -1,4 +1,5 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -7,6 +8,7 @@ namespace App_banAo.Controllers
     public class SizeController : Controller
     {
          private readonly HttpClient httpClients;
+        public int PageSize = 9;
 
         public SizeController()
         {
@@ -17,13 +19,24 @@ namespace App_banAo.Controllers
             return View();
         }
 
-        public async Task<IActionResult> GetAllSize()
+        public async Task<IActionResult> GetAllSize(int ProductPage = 1)
         {
             string apiUrl = "https://localhost:7016/api/Size";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var Sizes = JsonConvert.DeserializeObject<List<Size>>(apiData);
-            return View(Sizes);
+            return View(new SizeViewmodel
+            {
+                sizes = Sizes
+         .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = Sizes.Count()
+                }
+            });
+            //return View(Sizes);
         }
         public async Task<IActionResult> Create()
         {

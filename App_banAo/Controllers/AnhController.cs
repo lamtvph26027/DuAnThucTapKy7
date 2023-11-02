@@ -1,7 +1,9 @@
-﻿using App_data.Models;
+﻿using App_banAo.Models;
+using App_data.Models;
 using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System.Drawing.Printing;
 
 namespace App_banAo.Controllers
 {
@@ -10,7 +12,8 @@ namespace App_banAo.Controllers
         
       
         private readonly HttpClient httpClients;
-       
+        public int PageSize = 9;
+
 
         public AnhController()
         {
@@ -21,14 +24,26 @@ namespace App_banAo.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> GetAllAnh()
+        public async Task<IActionResult> GetAllAnh(int ProductPage = 1)
         {
            
             string apiUrl = "https://localhost:7016/api/Anh";
             var response = await httpClients.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var Anhs = JsonConvert.DeserializeObject<List<Anh>>(apiData);
-            return View(Anhs);
+            return View(new AnhViewModel
+            {
+                Anhs = Anhs
+        .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = Anhs.Count()
+                }
+            });
+
+            //return View(Anhs);
         }
         public async Task<IActionResult> Create()
         {
