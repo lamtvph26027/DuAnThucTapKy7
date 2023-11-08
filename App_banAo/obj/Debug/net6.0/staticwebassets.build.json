@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DY1kmEJc1QSD+1MM6LLa0MfWajjfLsvUYyoeJlSOJoo=",
+  "Hash": "hp0UDE9T/Sh5gKuNt+OH7Jbt+V1mdGmzXU/hOO0Opzw=",
   "Source": "App_banAo",
   "BasePath": "_content/App_banAo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "App_banAo\\wwwroot",
       "Source": "App_banAo",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App_banAo.styles.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App_banAo.styles.css",
       "SourceId": "App_banAo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "App_banAo.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App_banAo.styles.css"
+      "OriginalItemSpec": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\bundle\\App_banAo.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App_banAo.bundle.scp.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App_banAo.bundle.scp.css",
       "SourceId": "App_banAo",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "App_banAo.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App_banAo.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\App_banAo.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\basic.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\basic.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/basic.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\basic.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/bootstrap.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-fileupload.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-fileupload.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/bootstrap-fileupload.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\bootstrap-fileupload.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-social.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\bootstrap-social.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/bootstrap-social.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\bootstrap-social.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\custom.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\custom.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/custom.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\custom.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\error.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\error.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/error.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\error.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\font-awesome.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\font-awesome.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/font-awesome.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\invoice.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\invoice.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/invoice.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\invoice.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\prettyPhoto.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\prettyPhoto.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/prettyPhoto.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\prettyPhoto.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\pricing.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\pricing.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/pricing.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\pricing.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\jquery.steps.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\jquery.steps.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/wizard/jquery.steps.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\wizard\\jquery.steps.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\normalize.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\normalize.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/wizard/normalize.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\wizard\\normalize.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\wizardMain.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\css\\wizard\\wizardMain.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/css/wizard/wizardMain.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\css\\wizard\\wizardMain.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\FontAwesome.otf",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\FontAwesome.otf",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.eot",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.eot",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.svg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.svg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.woff",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\fontawesome-webfont.woff",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\demoUpload.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\demoUpload.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/demoUpload.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\demoUpload.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\logo-invoice.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\logo-invoice.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/logo-invoice.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\logo-invoice.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\b.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\b.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/b.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\b.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\c.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\c.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/c.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\c.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\d.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\d.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/d.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\d.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\e.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\e.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/e.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\e.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\g.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\g.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/g.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\g.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\h.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\portfolio\\h.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/portfolio/h.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\portfolio\\h.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnNext.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnNext.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/btnNext.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnNext.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnPrevious.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnPrevious.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/btnPrevious.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\btnPrevious.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\contentPattern.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\contentPattern.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/contentPattern.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\contentPattern.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\default_thumbnail.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\default_thumbnail.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/default_thumbnail.gif",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\default_thumbnail.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/loader.gif",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_rounded/sprite.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_rounded\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnNext.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnNext.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/btnNext.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnNext.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnPrevious.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnPrevious.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/btnPrevious.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\btnPrevious.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\contentPattern.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\contentPattern.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/contentPattern.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\contentPattern.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\default_thumbnail.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\default_thumbnail.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/default_thumbnail.gif",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\default_thumbnail.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/loader.gif",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/dark_square/sprite.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\dark_square\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\default_thumb.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\default_thumb.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/default_thumb.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\default_thumb.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/loader.gif",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/sprite.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_next.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_next.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/sprite_next.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_next.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_prev.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_prev.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/sprite_prev.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_prev.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_x.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_x.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/sprite_x.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_x.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_y.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_y.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/default/sprite_y.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\default\\sprite_y.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnNext.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnNext.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/btnNext.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnNext.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnPrevious.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnPrevious.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/btnPrevious.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\btnPrevious.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternBottom.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternBottom.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/contentPatternBottom.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternBottom.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternLeft.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternLeft.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/contentPatternLeft.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternLeft.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternRight.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternRight.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/contentPatternRight.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternRight.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternTop.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternTop.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/contentPatternTop.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\contentPatternTop.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\default_thumbnail.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\default_thumbnail.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/default_thumbnail.gif",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\default_thumbnail.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/loader.gif",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/facebook/sprite.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\facebook\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnNext.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnNext.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_rounded/btnNext.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnNext.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnPrevious.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnPrevious.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_rounded/btnPrevious.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\btnPrevious.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\default_thumbnail.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\default_thumbnail.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_rounded/default_thumbnail.gif",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\default_thumbnail.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_rounded/loader.gif",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_rounded/sprite.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_rounded\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnNext.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnNext.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_square/btnNext.png",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnNext.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnPrevious.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnPrevious.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_square/btnPrevious.png",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\btnPrevious.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\default_thumbnail.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\default_thumbnail.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_square/default_thumbnail.gif",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\default_thumbnail.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_square/loader.gif",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\sprite.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\sprite.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/prettyPhoto/light_square/sprite.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\prettyPhoto\\light_square\\sprite.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/slideshow/1.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\slideshow\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/slideshow/2.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\slideshow\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\3.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\slideshow\\3.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/slideshow/3.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\slideshow\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\user.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\user.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/user.gif",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\user.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\user.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\img\\user.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/img/user.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\img\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/bootstrap.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap-fileupload.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\bootstrap-fileupload.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/bootstrap-fileupload.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\bootstrap-fileupload.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\custom.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\custom.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/custom.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\galleryCustom.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\galleryCustom.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/galleryCustom.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\galleryCustom.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.metisMenu.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.metisMenu.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/jquery.metisMenu.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\jquery.metisMenu.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.mixitup.min.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.mixitup.min.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/jquery.mixitup.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\jquery.mixitup.min.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.prettyPhoto.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery.prettyPhoto.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/jquery.prettyPhoto.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\jquery.prettyPhoto.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery-1.10.2.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\jquery-1.10.2.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/jquery-1.10.2.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\jquery-1.10.2.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.cookie-1.3.1.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.cookie-1.3.1.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/wizard/jquery.cookie-1.3.1.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\wizard\\jquery.cookie-1.3.1.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.steps.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\jquery.steps.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/wizard/jquery.steps.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\wizard\\jquery.steps.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\modernizr-2.6.2.min.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Adminassets\\js\\wizard\\modernizr-2.6.2.min.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Adminassets/js/wizard/modernizr-2.6.2.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Adminassets\\js\\wizard\\modernizr-2.6.2.min.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap.css",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-grid.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\bootstrap-reboot.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\style.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\style.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/style.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\style.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\css\\style.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/css/style.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\css\\style.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\a.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\a.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/a.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\a.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\ANhAoKhacMauXanh.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\ANhAoKhacMauXanh.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/ANhAoKhacMauXanh.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\ANhAoKhacMauXanh.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacDen.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacDen.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhAoKhoacDen.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhAoKhoacDen.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacTrang.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacTrang.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhAoKhoacTrang.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhAoKhoacTrang.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacVang.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhAoKhoacVang.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhAoKhoacVang.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhAoKhoacVang.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauDo.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauDo.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhMauDo.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhMauDo.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauTrang.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauTrang.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhMauTrang.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhMauTrang.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVang.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVang.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhMauVang.png",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhMauVang.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVangS.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhMauVangS.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhMauVangS.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhMauVangS.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhmauXanh.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhmauXanh.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhmauXanh.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhmauXanh.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhQuanBoXanhDaTroi.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\AnhQuanBoXanhDaTroi.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/AnhQuanBoXanhDaTroi.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\AnhQuanBoXanhDaTroi.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/carousel-1.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\carousel-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/carousel-2.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\carousel-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-3.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\carousel-3.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/carousel-3.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\carousel-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/cat-1.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\cat-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/cat-2.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\cat-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-3.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-3.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/cat-3.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\cat-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-4.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\cat-4.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/cat-4.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\cat-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\offer-1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\offer-1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/offer-1.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\offer-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\offer-2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\offer-2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/offer-2.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\offer-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\OIP.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\OIP.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/OIP.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\OIP.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\payments.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\payments.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/payments.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\payments.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-1.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-2.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-3.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-3.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-3.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-4.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-4.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-4.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-5.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-5.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-5.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-6.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-6.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-6.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-7.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-7.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-7.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-8.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-8.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-8.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-9.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\product-9.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/product-9.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\product-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\user.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\user.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/user.jpg",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\user.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-1.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-1.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-1.jpg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-2.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-2.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-2.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-3.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-3.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-3.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-4.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-4.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-4.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-5.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-5.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-5.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-6.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-6.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-6.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-7.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-7.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-7.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-8.jpg",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\img\\vendor-8.jpg",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/img/vendor-8.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\img\\vendor-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\js\\main.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\js\\main.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/js/main.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\animate\\animate.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\animate\\animate.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/animate/animate.min.css",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\animate\\animate.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/easing/easing.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\easing\\easing.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.min.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\easing\\easing.min.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/easing/easing.min.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\easing\\easing.min.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/ajax-loader.gif",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.carousel.css",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.carousel.min.css",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.theme.default.css",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.theme.green.css",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.theme.green.min.css",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/assets/owl.video.play.png",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\LICENSE",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\LICENSE",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/LICENSE",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/owl.carousel.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.min.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/lib/owlcarousel/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\contact.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\contact.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/mail/contact.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\mail\\contact.js"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\contact.php",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\contact.php",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/mail/contact.php",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Userassets\\mail\\contact.php"
     },
     {
-      "Identity": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\jqBootstrapValidation.min.js",
+      "Identity": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\Userassets\\mail\\jqBootstrapValidation.min.js",
       "SourceId": "App_banAo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Hoan\\source\\repos\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
+      "ContentRoot": "D:\\Dự án Thực tập_Kỳ 7\\DuAnThucTapKy7\\App_banAo\\wwwroot\\",
       "BasePath": "_content/App_banAo",
       "RelativePath": "Userassets/mail/jqBootstrapValidation.min.js",
       "AssetKind": "All",

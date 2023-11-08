@@ -237,7 +237,7 @@ namespace App_banAo.Controllers
         }
         public async Task<IActionResult> GetAllTKKH()
         {
-            string apiUrl = "https://localhost:7016/api/TaiKhoan/idkt?id=c71183fd-d158-45d6-92f5-b853cac59257";
+            string apiUrl = "https://localhost:7016/api/TaiKhoan/idkt?id=f16ac1b2-9318-4dec-9670-b3b4a7d0c559";
             var response = await client.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var TaiKhoans = JsonConvert.DeserializeObject<List<TaiKhoan>>(apiData);

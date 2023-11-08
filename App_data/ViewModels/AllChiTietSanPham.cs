@@ -21,6 +21,7 @@ namespace App_data.ViewModels
         public double GiaKhuyenMai { get; set; }
         public int soluong { get; set; }
         public int TrangThai { get; set; }
+        public Guid? idSanPham { get; set; }    
         //public  List<AnhView>? listAnhs { get; set; }
 
         //public  List<MauSacView>? listMauSacs { get; set; }

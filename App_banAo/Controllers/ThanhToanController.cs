@@ -1,4 +1,5 @@
-﻿using App_banAo.Services;
+﻿using App_banAo.Models;
+using App_banAo.Services;
 using App_data.IRepositories;
 using App_data.Models;
 using App_data.Repositories;
@@ -18,6 +19,7 @@ namespace App_banAo.Controllers
         private readonly IAllRepositories<HoaDon> hoadons;
         private readonly IAllRepositories<ChiTietHoaDon> chitiethoadonss;
         private readonly AppDbcontext context;
+        public int PageSize = 9;
         List<ChiTietGioHang> listCTGH = new List<ChiTietGioHang>();
         List<HoaDon> ListHD = new List<HoaDon>();
         List<ChiTietSanPham> ListCTSP = new List<ChiTietSanPham>();
@@ -55,13 +57,24 @@ namespace App_banAo.Controllers
                 ListCTSP = JsonConvert.DeserializeObject<List<ChiTietSanPham>>(data);
             }
         }
-        public async Task<IActionResult> GetAllHoaDon()
+        public async Task<IActionResult> GetAllHoaDon(int ProductPage = 1)
         {
             string apiUrl = "https://localhost:7016/api/HoaDon";
             var response = await _httpClient.GetAsync(apiUrl);
             string apiData = await response.Content.ReadAsStringAsync();
             var sanPhams = JsonConvert.DeserializeObject<List<HoaDon>>(apiData);
-            return View(sanPhams);
+
+            return View(new PhanTrangThanhToanAdmin
+            {
+                listhoadons = sanPhams
+         .Skip((ProductPage - 1) * PageSize).Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = ProductPage,
+                    TotalItems = sanPhams.Count()
+                }
+            });
         }
         public async Task<IActionResult> Details(Guid id)
         {
@@ -101,7 +114,7 @@ namespace App_banAo.Controllers
             var ctsanPhams = JsonConvert.DeserializeObject<List<ChiTietSanPham>>(apiData);
            
             hoaDonViewModel.PhuongThucThanhToan = "TTKNH";
-            hoaDonViewModel.IdTrangThaiGiaoHang = Guid.Parse("e37cd89e-97ca-4348-93f2-da36d7926e6e");
+            hoaDonViewModel.IdTrangThaiGiaoHang = Guid.Parse("febe0fa7-ee12-40cb-a0de-483b951ff414");
             hoaDonViewModel.TienShip = 0;
             //hoaDonViewModel.DiaChi = "123455432344";
             hoaDonViewModel.ChiTietHoaDons = new List<ChiTietHoaDonView>();

@@ -38,6 +38,7 @@ namespace App_API.Controllers
 
                                          Id = CTSP.Id,
                                          TenAnh = anh.Ten,
+                                         idSanPham=CTSP.IdSanPham,
                                          MaKhuyenMai= null,
                                          TenLoaiSP = loaisp.Ten,
                                          TenSanPham = sp.Ten,
@@ -75,6 +76,7 @@ namespace App_API.Controllers
 
                                      Id = CTSP.Id,
                                      TenAnh = anh.Ten,
+                                     idSanPham=CTSP.IdSanPham,
                                      MaKhuyenMai = null,
                                      TenLoaiSP = loaisp.Ten,
                                      TenSanPham = sp.Ten,
@@ -123,6 +125,7 @@ namespace App_API.Controllers
             var result = await AllCTSP.AsNoTracking().Select(c => new AllChiTietSanPham() {  
             Id=c.CTSP.Id,
             TenAnh=c.anh.Ten,
+            idSanPham=c.CTSP.IdSanPham,
             MaKhuyenMai=null,
             TenSanPham=c.sp.Ten,
             TenLoaiSP=c.loaisp.Ten,
@@ -158,6 +161,7 @@ namespace App_API.Controllers
                                  select new AllChiTietSanPham()
                                  {
                                      Id = CTSP.Id,
+                                     idSanPham=CTSP.IdSanPham,
                                      TenAnh = anh.Ten,
                                      MaKhuyenMai=null,
                                      TenLoaiSP = loaisp.Ten,
@@ -347,7 +351,23 @@ namespace App_API.Controllers
             }
             return true;
         }
-       
+        [Route("QLKhuyenMaiDelete")]
+        [HttpPut]
+        public bool DeleteKMVoSP(List<Guid> qlkm)
+        {
+            foreach (var km in qlkm)
+            { 
+                    var tim = _dbcontext.ChiTietSanPhams.FirstOrDefault(x => x.Id == km);
+                    if (tim != null)
+                    {
+                        tim.IdKhuyenMai = null;
+                        _dbcontext.ChiTietSanPhams.Update(tim);
+                        _dbcontext.SaveChanges();
+                    }
+            }
+            return true;
+        }
+
         [Route("ALlSPKhuyenMai")]
         [HttpGet]
         public async Task<List<AllSanPhamByKM>> GetAllSPKhuyenMai()
@@ -367,7 +387,7 @@ namespace App_API.Controllers
                                      IdLoaiSpCha=loaisp.IdLoaiSPCha,
                                      Ten = sp.Ten,
                                      MoTa = sp.MoTa,
-                                     TimIdKM = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
+                                     IdKhuyenMai = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
                                      TrangThai = sp.TrangThai
                                  }).ToListAsync();
             return AllCTSP;
@@ -392,7 +412,7 @@ namespace App_API.Controllers
                                      IdLoaiSpCha = loaisp.IdLoaiSPCha,
                                      Ten = sp.Ten,
                                      MoTa = sp.MoTa,
-                                     TimIdKM = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
+                                     IdKhuyenMai = (from km in _dbcontext.KhuyenMais where CTSP.IdKhuyenMai == km.Id select km.Id).FirstOrDefault(),
                                      TrangThai = sp.TrangThai
                                  }).Where(x=>x.IdLoaiSP==id||x.IdLoaiSP==id&&x.IdLoaiSpCha==IdLoaiSPCha).ToListAsync();
             return AllCTSP;

@@ -5,297 +5,324 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = App_banAo
 build_property.RootNamespace = App_banAo
-build_property.ProjectDir = C:\Users\Hoan\source\repos\DuAnThucTapKy7\App_banAo\
+build_property.ProjectDir = D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_banAo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Hoan\source\repos\DuAnThucTapKy7\App_banAo
+build_property.MSBuildProjectDirectory = D:\Dự án Thực tập_Kỳ 7\DuAnThucTapKy7\App_banAo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Home/Index.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/Error.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/_ViewImports.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/_ViewStart.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Anh/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Anh/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5oXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Anh/GetAllAnh.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Anh/GetAllAnh.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5oXEdldEFsbEFuaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Anh/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Anh/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5oXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdExpZXVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdExpZXVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChatLieu/GetAllChatLieu.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChatLieu/GetAllChatLieu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdExpZXVcR2V0QWxsQ2hhdExpZXUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChatLieu/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdExpZXVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/GetAllChiTietSanPham.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/GetAllChiTietSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXEdldEFsbENoaVRpZXRTYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/GetAllChiTietSanPhamAdmin.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/GetAllChiTietSanPhamAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXEdldEFsbENoaVRpZXRTYW5QaGFtQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateAnhMauSac.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateAnhMauSac.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXFVwZGF0ZUFuaE1hdVNhYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateCTSP.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateCTSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXFVwZGF0ZUNUU1AuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateMauSac.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ChiTietSP/UpdateMauSac.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldFNQXFVwZGF0ZU1hdVNhYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/GioHang/ShowCart.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/GioHang/ShowCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xTaG93Q2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Cart.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/CheckOut.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja091dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Contact.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Index.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Login.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/ProductDetail.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/ProductDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Register.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Home/Shop.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Home/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/AddKHuyenMaiVoSP.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/AddKHuyenMaiVoSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXEFkZEtIdXllbk1haVZvU1AuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/GetAllKhuyenMai.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/GetAllKhuyenMai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXEdldEFsbEtodXllbk1haS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/GetAllSPByKM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXEdldEFsbFNQQnlLTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/GetAllSPNoKM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXEdldEFsbFNQTm9LTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/KhuyenMai/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNQXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNQXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/LoaiSP/GetAllLoaiSP.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/LoaiSP/GetAllLoaiSP.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNQXEdldEFsbExvYWlTUC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/LoaiSP/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNQXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/MauSac/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/MauSac/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF1U2FjXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/MauSac/GetAllMauSac.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/MauSac/GetAllMauSac.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF1U2FjXEdldEFsbE1hdVNhYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/MauSac/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/MauSac/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF1U2FjXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/GetAllNhaCungCap.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/GetAllNhaCungCap.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxHZXRBbGxOaGFDdW5nQ2FwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/NhaCungCap/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/SanPham/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/SanPham/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/SanPham/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/SanPham/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/SanPham/GetAllSanPham.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/SanPham/GetAllSanPham.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxHZXRBbGxTYW5QaGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/SanPham/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/SanPham/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/CartPartial.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/CartPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENhcnRQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/Error.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/LoginPartial.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/SanPhamSearch.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/SanPhamSearch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNhblBoYW1TZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Size/Create.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Size/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Size/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Size/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Size/GetAllSize.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Size/GetAllSize.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxHZXRBbGxTaXplLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Size/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Size/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l6ZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/ChangePassword.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/DangKyTaiKhoan.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/DangKyTaiKhoan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cRGFuZ0t5VGFpS2hvYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/GetAllTKKH.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/GetAllTKKH.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cR2V0QWxsVEtLSC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/Login.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/UpdateTT.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/UpdateTT.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cVXBkYXRlVFQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/UpdateTTAdmin.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/TaiKhoan/UpdateTTAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cVXBkYXRlVFRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ThanhToan/Details.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThanhToan/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhhbmhUb2FuXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ThanhToan/GetAllHoaDon.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThanhToan/GetAllHoaDon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhhbmhUb2FuXEdldEFsbEhvYURvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ThanhToan/TaoHoaDon.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThanhToan/TaoHoaDon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhhbmhUb2FuXFRhb0hvYURvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/ThanhToan/Update.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThanhToan/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhhbmhUb2FuXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/_ViewImports.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThongKe/ThongKeDoanhThuTheoNam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZVxUaG9uZ0tlRG9hbmhUaHVUaGVvTmFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThongKe/ThongKeDoanhThuTheoNgay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZVxUaG9uZ0tlRG9hbmhUaHVUaGVvTmdheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThongKe/ThongKeDoanhThuTheoThang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZVxUaG9uZ0tlRG9hbmhUaHVUaGVvVGhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThongKe/ThongKeKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZVxUaG9uZ0tlS0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/ThongKe/ThongKeSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdLZVxUaG9uZ0tlU1AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/_ViewStart.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/Admin_Layout.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Areas/Admin/Views/Shared/Admin_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-qp8ubcqodq
 
-[C:/Users/Hoan/source/repos/DuAnThucTapKy7/App_banAo/Views/Shared/_Layout.cshtml]
+[D:/Dự án Thực tập_Kỳ 7/DuAnThucTapKy7/App_banAo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vfz1esxcbo

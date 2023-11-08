@@ -22,19 +22,11 @@
    
 
 
-<h2>Thêm Khuyến mãi Sản Phẩm</h2>
+<h2>Các Chi Tiết Sản Phẩm</h2>
 <hr />
 
             
-                <label class="control-label">Mã Khuyến Mãi </label>
-                <div>
-        <select id="khuyenMaiSelect" class="form-control" style="width:700px;height:50px">
-                        @foreach (var loaisp in listkms.ToList())
-                        {
-                            <option  value="@loaisp.Id">@loaisp.Ten</option>
-                        }
-                    </select>
-                </div>
+                
 
             
             <!-- Nhieu CSTP start-->
@@ -51,6 +43,9 @@
 
             <th>
                 Tên SP
+            </th>
+            <th>
+                Ảnh
             </th>
 
             <th>
@@ -90,6 +85,27 @@
 
                 <td>
                     <strong style="color:red">@item.TenSanPham</strong>
+                </td>
+                <td>
+                    @{
+
+                        if (item.TenAnh != null)
+                        {
+                            string extension = System.IO.Path.GetExtension(item.TenAnh);
+                            if (imageExtensions.Contains(extension.Trim()))
+                            {
+                                <img class="img-fluid w-100" src="~/userassets/img/@item.TenAnh" />
+                            }
+                            else
+                            {
+                                <img class="img-fluid w-100" src="~/imgs/product-2.jpg" height="100px">
+                            }
+                        }
+                        else
+                        {
+                            <strong></strong>
+                        }
+                    }
                 </td>
 
                 <td>
@@ -197,7 +213,8 @@
 <button id="selectAllCheckbox" class="btn btn-primary">Chọn tất cả</button>
 <br />
 <div class="form-group">
-    <button id="updateButton" class="btn btn-primary">Add Vo SP</button>
+    <button id="updateButton" class="btn btn-primary">Áp Dụng Khuyến Mãi</button>
+    <button id="DeleteButton" class="btn btn-danger">Không Áp Dụng Khuyến Mãi</button>
 </div>
    
 
@@ -222,7 +239,7 @@
 
         // Sự kiện khi click vào "Cập nhật"
         $("#updateButton").click(function () {
-            var selectedKhuyenMai = $("#khuyenMaiSelect").val();
+            
             var selectedSanPham = [];
 
             $(".sanpham-checkbox:checked").each(function () {
@@ -234,7 +251,7 @@
                 url: "/KhuyenMai/AddKHuyenMaiVoSP",
                 type: "POST",
                 data: {
-                    idKhuyenMai: selectedKhuyenMai,
+                    
                     sanphams: selectedSanPham
                 },
                 success: function (response) {
@@ -249,7 +266,38 @@
                     toastr.error(response.message, 'Error Alert', { timeOut: 300 });
                 }
             });
+                
         });
+            $("#DeleteButton").click(function () {
+
+                var selectedSanPham = [];
+
+                $(".sanpham-checkbox:checked").each(function () {
+                    selectedSanPham.push($(this).data("id"));
+                });
+
+                // Gửi dữ liệu lên server để cập nhật
+                $.ajax({
+                    url: "/KhuyenMai/DeleteKHuyenMaiRaSP",
+                    type: "POST",
+                    data: {
+
+                        sanphams: selectedSanPham
+                    },
+                    success: function (response) {
+                        if (response.success == true) {
+                            location.reload();
+                        } else {
+                            toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                        }
+                    },
+                    error: function (response) {
+                        console.log(response);
+                        toastr.error(response.message, 'Error Alert', { timeOut: 300 });
+                    }
+                });
+
+            });
     });
 
 </script>

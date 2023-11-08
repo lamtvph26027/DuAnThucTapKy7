@@ -43,7 +43,7 @@ public AppDbcontext()
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-NDP859O\SQLEXPRESS;Initial Catalog=hoanTT;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-S6G7NFV\SQLEXPRESS;Initial Catalog=Du_An_ThucTapKy_7_Lan2;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
